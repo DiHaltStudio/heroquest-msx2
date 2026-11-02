@@ -1,0 +1,28 @@
+HeroQuest MSX2 - Version 1.0
+An unofficial homage port by DiHalt Studio, 2026.
+
+Requirements: MSX2 or later, 64 KB RAM, 128 KB VRAM.
+Cartridge: ASCII16 MegaROM, 2 MiB. Optional MoonSound/OPL4 audio.
+
+heroquest.rom is the normal game. Select ASCII16 explicitly in an emulator
+or use an ASCII16-compatible flash cartridge with space for a 2 MiB image.
+
+openmsx -machine Philips_NMS_8250 -carta heroquest.rom -romtype ASCII16
+Add -ext moonsound for OPL4 music. The internal PSG works without it.
+
+After the opening picture, choose ENGLISH or ESPANOL with up/down and
+confirm with SPACE, RETURN or joystick fire. The intro and all 24
+adventures use the selected language until restart.
+
+manual-en.pdf: English user manual, with English screenshots.
+manual-es.pdf: Manual en espanol, con capturas en espanol.
+extras/heroquest-cheat.rom: optional cheat edition, heroes win combat
+and take no damage. Use heroquest.rom for normal play.
+
+Source, build instructions and manuals:
+https://github.com/nwlg/heroquest-msx2
+
+Original game: Gremlin Graphics, 1991. Based on the HeroQuest board game.
+HeroQuest and all original artwork and music belong to their respective
+rights holders. This is an unofficial port for study, preservation and
+homage; it is not affiliated with or endorsed by the original owners.

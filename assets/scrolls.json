@@ -1,0 +1,16 @@
+{
+  "note": "Two 8x8 texture tiles per style; paper_to_style uses the 16 game palette indices after Spectrum colour conversion and inverse video.",
+  "paper_to_style": [3, 9, 7, 5, 3, 3, 2, 1, 8, 8, 8, 6, 9, 4, 2, 0],
+  "styles": [
+    {"name": "marfil fino", "colours": [15, 7, 14], "ink": 12, "grain": 128},
+    {"name": "marfil fibroso", "colours": [7, 15, 8], "ink": 12, "grain": 96},
+    {"name": "ocre", "colours": [7, 14, 6], "ink": 12, "grain": 96},
+    {"name": "cuero rojizo", "colours": [6, 14, 8], "ink": 15, "grain": 128},
+    {"name": "cuero envejecido", "colours": [6, 8, 12], "ink": 15, "grain": 64},
+    {"name": "musgo", "colours": [7, 2, 8], "ink": 12, "grain": 96},
+    {"name": "musgo claro", "colours": [15, 7, 2], "ink": 12, "grain": 128},
+    {"name": "ceniza verdosa", "colours": [8, 2, 12], "ink": 15, "grain": 96},
+    {"name": "ceniza", "colours": [8, 7, 12], "ink": 15, "grain": 128},
+    {"name": "quemado", "colours": [6, 8, 12], "ink": 15, "grain": 32}
+  ]
+}

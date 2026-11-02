@@ -1,0 +1,16 @@
+.venv/
+build/
+originals/
+third_party/
+__pycache__/
+*.pyc
+release/*
+!release/.gitkeep
+assets/sound/*.mod
+docs/manual/*.aux
+docs/manual/*.log
+docs/manual/*.out
+docs/manual/*.toc
+docs/manual/*.fls
+docs/manual/*.fdb_latexmk
+docs/manual/.manual-*

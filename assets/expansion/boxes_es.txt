@@ -1,0 +1,39 @@
+# Text windows of the expansion quests, in Spanish. "[name row]", then the
+# lines of the window; the build pads the lines to the longest one and
+# centres the window. Capital letters, digits, comma and full stop only.
+
+[gold250 10]
+EL COFRE TIENE
+250 MONEDAS ORO
+
+[gold300 10]
+EL COFRE TIENE
+300 MONEDAS ORO
+
+[gold350 10]
+EL COFRE TIENE
+350 MONEDAS ORO
+
+[gold400 10]
+CADA COFRE CONTIENE
+200 MONEDAS DE ORO
+
+[gold500 9]
+ENCUENTRAS 500
+MONEDAS DE ORO EN
+UN COMPARTIMENTO
+SECRETO DEL TRONO
+
+[potion100 10]
+EL COFRE CONTIENE
+UNA POCION CURATIVA
+Y 100 MONEDAS DE ORO
+
+[potions2 10]
+EL COFRE CONTIENE DOS
+POCIONES CURATIVAS
+
+[key 9]
+ENCUENTRAS UNA LLAVE DE
+AGRAIN EN EL BANCO.
+VALE 100 MONEDAS DE ORO

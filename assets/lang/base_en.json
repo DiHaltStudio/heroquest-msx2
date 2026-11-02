@@ -1,0 +1,1489 @@
+{
+  "note": "English fixed-size text patches. Addresses are game RAM addresses; overlay records map to DB58h in bank 6. Source bytes are validated after the Spanish runtime patches. Spaces encode as 5Fh; periods as 3Ah, commas as 3Bh. Do not resize dynamic fields or clickable labels.",
+  "game": [
+    {
+      "address": "7837",
+      "source": "5f4241524241524f5f",
+      "english": "BARBARIAN",
+      "align": "center"
+    },
+    {
+      "address": "7841",
+      "source": "5f5f454e414e4f5f5f",
+      "english": "DWARF",
+      "align": "center"
+    },
+    {
+      "address": "784B",
+      "source": "5f4455454e44455f5f",
+      "english": "ELF",
+      "align": "center"
+    },
+    {
+      "address": "7855",
+      "source": "48454348494345524f",
+      "english": "WIZARD",
+      "align": "center"
+    },
+    {
+      "address": "785F",
+      "source": "5f5241474e41525f5f",
+      "english": "RAGNAR",
+      "align": "center"
+    },
+    {
+      "address": "9747",
+      "source": "465545525a41",
+      "english": "MIGHT",
+      "align": "left"
+    },
+    {
+      "address": "974E",
+      "source": "524553495354454e434941",
+      "english": "RESILIENCE",
+      "align": "left"
+    },
+    {
+      "address": "975A",
+      "source": "4355524143494f4e",
+      "english": "HEALING",
+      "align": "left"
+    },
+    {
+      "address": "9763",
+      "source": "414755415f53414e54415f",
+      "english": "HOLY WATER",
+      "align": "left"
+    },
+    {
+      "address": "976F",
+      "source": "56454c4f4349444144",
+      "english": "SPEED",
+      "align": "left"
+    },
+    {
+      "address": "9779",
+      "source": "4845524f49434f",
+      "english": "HEROIC",
+      "align": "left"
+    },
+    {
+      "address": "978B",
+      "source": "41524d41445552415f424f52494e",
+      "english": "BORIN ARMOUR",
+      "align": "left"
+    },
+    {
+      "address": "979A",
+      "source": "564152415f44455f524543554552444f",
+      "english": "WAND OF RECALL",
+      "align": "left"
+    },
+    {
+      "address": "97AB",
+      "source": "54414c49534d414e5f5341424552",
+      "english": "LORE TALISMAN",
+      "align": "left"
+    },
+    {
+      "address": "97BA",
+      "source": "424152415f44455f4f5243",
+      "english": "ORCS BANE",
+      "align": "left"
+    },
+    {
+      "address": "97C6",
+      "source": "4553504144415f53504952495455414c",
+      "english": "SPIRIT BLADE",
+      "align": "left"
+    },
+    {
+      "address": "97E5",
+      "source": "424153544f4e",
+      "english": "STAFF",
+      "align": "left"
+    },
+    {
+      "address": "97EC",
+      "source": "444147415f5f5f5f5f5f5f",
+      "english": "DAGGER",
+      "align": "left"
+    },
+    {
+      "address": "97F8",
+      "source": "4553504144415f5f5f5f5f",
+      "english": "BROADSWORD",
+      "align": "left"
+    },
+    {
+      "address": "9804",
+      "source": "4752414e5f48414348415f",
+      "english": "BATTLE AXE",
+      "align": "left"
+    },
+    {
+      "address": "9810",
+      "source": "42414c4c45535441",
+      "english": "CROSSBOW",
+      "align": "left"
+    },
+    {
+      "address": "9819",
+      "source": "48414348415f5f5f5f5f",
+      "english": "HAND AXE",
+      "align": "left"
+    },
+    {
+      "address": "9824",
+      "source": "4c414e5a41",
+      "english": "SPEAR",
+      "align": "left"
+    },
+    {
+      "address": "9832",
+      "source": "45534355444f",
+      "english": "SHIELD",
+      "align": "left"
+    },
+    {
+      "address": "9839",
+      "source": "434153434f",
+      "english": "HELM",
+      "align": "left"
+    },
+    {
+      "address": "983F",
+      "source": "4d414c4c415f5f5f5f5f",
+      "english": "CHAIN MAIL",
+      "align": "left"
+    },
+    {
+      "address": "984A",
+      "source": "41524d4144555241",
+      "english": "PLATE",
+      "align": "left"
+    },
+    {
+      "address": "985F",
+      "source": "56454c4f5f4e4945424c41",
+      "english": "MIST CLOAK",
+      "align": "left"
+    },
+    {
+      "address": "986B",
+      "source": "41475541535f435552415449564153",
+      "english": "HEALING WATER",
+      "align": "left"
+    },
+    {
+      "address": "987B",
+      "source": "444f524d4952",
+      "english": "SLEEP",
+      "align": "left"
+    },
+    {
+      "address": "9882",
+      "source": "54454d504553544144",
+      "english": "TEMPEST",
+      "align": "left"
+    },
+    {
+      "address": "988C",
+      "source": "4855524143414e5f5f5f5f5f",
+      "english": "SWIFT WIND",
+      "align": "left"
+    },
+    {
+      "address": "9899",
+      "source": "47454e494f5f",
+      "english": "GENIE",
+      "align": "left"
+    },
+    {
+      "address": "98AC",
+      "source": "434f52414745",
+      "english": "VALOUR",
+      "align": "left"
+    },
+    {
+      "address": "98B3",
+      "source": "424f4c415f44455f465545474f",
+      "english": "BALL OF FLAME",
+      "align": "left"
+    },
+    {
+      "address": "98C1",
+      "source": "465545474f5f44455f495241",
+      "english": "WRATH FIRE",
+      "align": "left"
+    },
+    {
+      "address": "98CE",
+      "source": "4352555a41525f4d55524f535f",
+      "english": "PASS THROUGH",
+      "align": "left"
+    },
+    {
+      "address": "98DC",
+      "source": "5049454c5f44455f524f4341",
+      "english": "ROCK SKIN",
+      "align": "left"
+    },
+    {
+      "address": "98E9",
+      "source": "53414e41525f43554552504f",
+      "english": "HEAL BODY",
+      "align": "left"
+    },
+    {
+      "address": "A43D",
+      "source": "45535f454c5f5455524e4f5f44455f4d4f52434152",
+      "english": "MORCAR TAKES HIS TURN",
+      "align": "left"
+    },
+    {
+      "address": "A458",
+      "source": "454c5f5455524e4f5f44455f4d4f524341525f53455f5445524d494e4f",
+      "english": "THE TURN OF MORCAR HAS ENDED",
+      "align": "left"
+    },
+    {
+      "address": "B166",
+      "source": "43554552504f5f30",
+      "english": "BODY   0",
+      "align": "left"
+    },
+    {
+      "address": "B171",
+      "source": "4d454e54455f5f30",
+      "english": "MIND   0",
+      "align": "left"
+    },
+    {
+      "address": "B17E",
+      "source": "43554552504f5f30",
+      "english": "BODY   0",
+      "align": "left"
+    },
+    {
+      "address": "B189",
+      "source": "4d454e54455f5f30",
+      "english": "MIND   0",
+      "align": "left"
+    },
+    {
+      "address": "B54B",
+      "source": "5f4455454e44455f5f",
+      "english": "GOBLIN",
+      "align": "center"
+    },
+    {
+      "address": "B555",
+      "source": "5f5f4f52435f5f5f5f",
+      "english": "ORC",
+      "align": "center"
+    },
+    {
+      "address": "B55F",
+      "source": "5f5f46494d49525f5f",
+      "english": "FIMIR",
+      "align": "center"
+    },
+    {
+      "address": "B569",
+      "source": "475545525245524f5f",
+      "english": "WARRIOR",
+      "align": "center"
+    },
+    {
+      "address": "B573",
+      "source": "45535155454c45544f",
+      "english": "SKELETON",
+      "align": "center"
+    },
+    {
+      "address": "B57D",
+      "source": "5f5a4f4d4249455f5f",
+      "english": "ZOMBIE",
+      "align": "center"
+    },
+    {
+      "address": "B587",
+      "source": "5f5f4d4f4d49415f5f",
+      "english": "MUMMY",
+      "align": "center"
+    },
+    {
+      "address": "B591",
+      "source": "48454348494345524f",
+      "english": "SORCERER",
+      "align": "center"
+    },
+    {
+      "address": "B5B9",
+      "source": "4752414e4252554a4f",
+      "english": "WITCHLORD",
+      "align": "center"
+    },
+    {
+      "address": "B5FC",
+      "source": "424c4f515545414441",
+      "english": "BLOCKED",
+      "align": "center"
+    },
+    {
+      "address": "B606",
+      "source": "5f5452414d50415f5f",
+      "english": "TRAP",
+      "align": "center"
+    },
+    {
+      "address": "B610",
+      "source": "5f53414c4944415f5f",
+      "english": "EXIT",
+      "align": "center"
+    },
+    {
+      "address": "B61A",
+      "source": "5f5f434f4652455f5f",
+      "english": "CHEST",
+      "align": "center"
+    },
+    {
+      "address": "B624",
+      "source": "5f5f54524f4e4f5f5f",
+      "english": "THRONE",
+      "align": "center"
+    },
+    {
+      "address": "B62E",
+      "source": "5f5f4d4553415f5f5f",
+      "english": "TABLE",
+      "align": "center"
+    },
+    {
+      "address": "B638",
+      "source": "48454348495a4f535f",
+      "english": "SPELLS",
+      "align": "center"
+    },
+    {
+      "address": "B642",
+      "source": "5f455354414e54455f",
+      "english": "RACK",
+      "align": "center"
+    },
+    {
+      "address": "B64C",
+      "source": "5f5f54554d42415f5f",
+      "english": "TOMB",
+      "align": "center"
+    },
+    {
+      "address": "B656",
+      "source": "5f5f42414e434f5f5f",
+      "english": "BENCH",
+      "align": "center"
+    },
+    {
+      "address": "B660",
+      "source": "4348494d454e45415f",
+      "english": "FIREPLACE",
+      "align": "center"
+    },
+    {
+      "address": "B66A",
+      "source": "5f41524d4152494f5f",
+      "english": "CUPBOARD",
+      "align": "center"
+    },
+    {
+      "address": "B674",
+      "source": "5f455354414e54455f",
+      "english": "BOOKCASE",
+      "align": "center"
+    },
+    {
+      "address": "B67E",
+      "source": "5f41524d455249415f",
+      "english": "ARMOURY",
+      "align": "center"
+    },
+    {
+      "address": "B795",
+      "source": "504f43494f4e4553",
+      "english": "POTIONS",
+      "align": "left"
+    },
+    {
+      "address": "B7A8",
+      "source": "42555351554544415f5445534f524f",
+      "english": "TREASURE SEARCH",
+      "align": "left"
+    },
+    {
+      "address": "B7C2",
+      "source": "41524d4153",
+      "english": "ARMS",
+      "align": "left"
+    },
+    {
+      "address": "B7D2",
+      "source": "48454348495a4f53",
+      "english": "SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "B7E5",
+      "source": "41524d4144555241",
+      "english": "ARMOUR",
+      "align": "left"
+    },
+    {
+      "address": "B7F8",
+      "source": "48454348495a4f53",
+      "english": "SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "B80B",
+      "source": "41524d41",
+      "english": "ARMS",
+      "align": "left"
+    },
+    {
+      "address": "B815",
+      "source": "5554494c495a415f43414a41",
+      "english": "USE TOOLKIT",
+      "align": "left"
+    },
+    {
+      "address": "B827",
+      "source": "53414c494441",
+      "english": "EXIT",
+      "align": "left"
+    },
+    {
+      "address": "B833",
+      "source": "4f524f5f4d41474e5553",
+      "english": "ROYAL GOLD",
+      "align": "left"
+    },
+    {
+      "address": "B843",
+      "source": "44454a415f434145525f4f524f",
+      "english": "DROP THE GOLD",
+      "align": "left"
+    },
+    {
+      "address": "B856",
+      "source": "41524d41",
+      "english": "ARMS",
+      "align": "left"
+    },
+    {
+      "address": "B85D",
+      "source": "43414e43454c4152",
+      "english": "CANCEL",
+      "align": "left"
+    },
+    {
+      "address": "B86B",
+      "source": "454e454d49474f5f54455f4849455245",
+      "english": "THE FOE HITS YOU",
+      "align": "left"
+    },
+    {
+      "address": "B881",
+      "source": "5f5f5f5f4154415155455f454e454d49474f5f53494e5f455849544f5f",
+      "english": "THE ENEMY ATTACK FAILS",
+      "align": "left"
+    },
+    {
+      "address": "B8A4",
+      "source": "4841535f4d415441444f5f414c5f454e454d49474f",
+      "english": "YOU KILLED THE ENEMY",
+      "align": "left"
+    },
+    {
+      "address": "B8BF",
+      "source": "54555f4154415155455f4e4f5f5449454e455f455849544f",
+      "english": "YOUR ATTACK FAILS",
+      "align": "left"
+    },
+    {
+      "address": "B8DD",
+      "source": "4e4f5f5055454445535f5645525f415f54555f454e454d49474f",
+      "english": "YOU CANNOT SEE YOUR ENEMY",
+      "align": "left"
+    },
+    {
+      "address": "B8FC",
+      "source": "454c5f4154415155455f48415f46524143415341444f",
+      "english": "THE ATTACK HAS FAILED",
+      "align": "left"
+    },
+    {
+      "address": "B918",
+      "source": "45535441535f4d55595f4c454a4f535f504152415f415441434152",
+      "english": "YOU ARE TOO FAR TO ATTACK",
+      "align": "left"
+    },
+    {
+      "address": "B939",
+      "source": "4e4f5f5055454445535f555341525f4c415f42414c4c45535441",
+      "english": "YOU CANNOT FIRE A CROSSBOW",
+      "align": "left"
+    },
+    {
+      "address": "B956",
+      "source": "455354414e444f5f54414e5f4345524341",
+      "english": "AT CLOSE RANGE",
+      "align": "left"
+    },
+    {
+      "address": "B96D",
+      "source": "444553414354495641535f4c415f5452414d5041",
+      "english": "YOU DISARM THE TRAP",
+      "align": "left"
+    },
+    {
+      "address": "B987",
+      "source": "4c415f5452414d50415f53455f414354495641",
+      "english": "THE TRAP GOES OFF",
+      "align": "left"
+    },
+    {
+      "address": "B99D",
+      "source": "504945524445535f315f44455f5455535f50554e544f535f5f",
+      "english": "YOU LOSE 1 BODY POINT",
+      "align": "left"
+    },
+    {
+      "address": "B9BC",
+      "source": "454c5f4f524f5f444553415041524543455f595f5655454c56455f41",
+      "english": "THE GOLD VANISHES INTO THE",
+      "align": "left"
+    },
+    {
+      "address": "B9DB",
+      "source": "4c415f4d494e41",
+      "english": "MINE",
+      "align": "left"
+    },
+    {
+      "address": "B9E8",
+      "source": "454e4355454e545241535f4c415f4553504144415f42414e455f44455f4f5243",
+      "english": "YOU FIND THE ORCS BANE SWORD",
+      "align": "left"
+    },
+    {
+      "address": "BA0E",
+      "source": "454e4355454e545241535f4c415f45535452454c4c415f44454c5f4f45535445",
+      "english": "YOU FIND THE STAR OF THE WEST",
+      "align": "left"
+    },
+    {
+      "address": "BA34",
+      "source": "48414e5f44455354525549444f5f454c5f414755415f534147524144415f",
+      "english": "THE HOLY WATER HAS DESTROYED",
+      "align": "left"
+    },
+    {
+      "address": "BA5C",
+      "source": "4d4f4e535452554f5f5649564f",
+      "english": "UNDEAD FOES",
+      "align": "left"
+    },
+    {
+      "address": "BA6F",
+      "source": "454c5f414755415f534147524144415f4e4f5f5449454e455f45464543544f",
+      "english": "THE HOLY WATER HAS NO EFFECT",
+      "align": "left"
+    },
+    {
+      "address": "BA94",
+      "source": "454c5f48454348495a4f5f5449454e455f45464543544f",
+      "english": "THE SPELL TAKES EFFECT",
+      "align": "left"
+    },
+    {
+      "address": "BAB1",
+      "source": "454c5f48454348495a4f5f53455f44455356494f",
+      "english": "SPELL WAS DEFLECTED",
+      "align": "left"
+    },
+    {
+      "address": "BACB",
+      "source": "454c5f48454348495a4f5f494e464c4947455f315f50554e544f5f5f5f5f",
+      "english": "THE SPELL DEALS 1 BODY POINT",
+      "align": "left"
+    },
+    {
+      "address": "BAEF",
+      "source": "48454348495a4f5f494e464c4947455f5f5f325f50554e544f535f5f5f5f",
+      "english": "SPELL INFLICTS 2 BODY POINTS",
+      "align": "left"
+    },
+    {
+      "address": "BB1B",
+      "source": "454c5f4241524241524f5f48415f4d554552544f",
+      "english": "BARBARIAN HAS DIED",
+      "align": "left"
+    },
+    {
+      "address": "BB33",
+      "source": "454c5f454e414e4f5f48415f4d554552544f",
+      "english": "THE DWARF IS DEAD",
+      "align": "left"
+    },
+    {
+      "address": "BB49",
+      "source": "454c5f4455454e44455f48415f4d554552544f",
+      "english": "THE ELF IS DEAD",
+      "align": "left"
+    },
+    {
+      "address": "BB60",
+      "source": "454c5f48454348494345524f5f48415f4d554552544f",
+      "english": "THE WIZARD IS DEAD",
+      "align": "left"
+    },
+    {
+      "address": "BB7A",
+      "source": "454c5f5241474e41525f48415f4d554552544f",
+      "english": "RAGNAR IS DEAD",
+      "align": "left"
+    },
+    {
+      "address": "AC54",
+      "source": "5f5f4e4f5f5645535f5f5f5f4e4144415f5f",
+      "english": " YOU SEE  NOTHING ",
+      "align": "left"
+    },
+    {
+      "address": "AC6A",
+      "source": "414354495641535f554e415f5452414d50415f5f5f504945524445535f50554e544f535f5f5f",
+      "english": " YOU SPRING A TRAP  LOSE 1 BODY POINT ",
+      "align": "left"
+    },
+    {
+      "address": "AC94",
+      "source": "5f5f5f4d49454e545241535f455354414241535f5f5f5f42555343414e444f3b554e5f4d4f4e535452554f5f54455f48415f5345475549444f5f595f54455f41544143415f",
+      "english": "    WHILE SEARCHING,     A WANDERING MONSTER   FINDS AND ATTACKS YOU ",
+      "align": "left"
+    },
+    {
+      "address": "ACDD",
+      "source": "5f5f5f415041524543455f554e5f5f5f46414e5441534d413b53455f5249455f44495350415241544144414d454e54455f5f595f444553415041524543455f5f",
+      "english": "A GHOST APPEARS, LAUGHS WILDLY    AND VANISHES    INTO THE AIR  ",
+      "align": "left"
+    },
+    {
+      "address": "AD21",
+      "source": "454c5f5355454c4f5f53455f414252455f595f54455f43414553415f554e5f464f534f3b5f504945524445535f315f50554e544f4c4f475241535f53414c49525f4a5553544f5f4355414e444f5f454c5f5355454c4f5f53455f455354415f43455252414e444f5f",
+      "english": "THE FLOOR OPENS. YOU FALL INTO A PIT. LOSE 1 POINT. YOU CLIMB OUT JUST BEFORE  THE FLOOR CLOSES AGAIN.  ",
+      "align": "left"
+    },
+    {
+      "address": "AD8E",
+      "source": "554e415f4c414e5a415f53455f444953504152415f44455344455f554e415f41424552545552415f595f54455f414c43414e5a413a504945524445535f5f315f44455f5455535f50554e544f535f5f5f",
+      "english": "A SPEAR SHOOTS FROM    A HIDDEN HOLE      AND STRIKES YOU.   LOSE 1 BODY POINT  ",
+      "align": "left"
+    },
+    {
+      "address": "ADE2",
+      "source": "454e4355454e545241535f5f5f5f5f5f5f5f5f5f5f5f4d4f4e454441535f4f524f",
+      "english": "  YOU FIND             GOLD COINS",
+      "align": "left"
+    },
+    {
+      "address": "AF69",
+      "source": "48414249544143494f4e59415f48415f5349444f52454749535452414441",
+      "english": "   ROOM    ALREADY   SEARCHED ",
+      "align": "left"
+    },
+    {
+      "address": "AF8B",
+      "source": "54455f5645535f454e5655454c544f5f5f504f525f554e415f54454d504553544144504945524445535f54555f5455524e4f5f",
+      "english": "    A TEMPEST      SURROUNDS YOU.   MISS YOUR TURN ",
+      "align": "left"
+    },
+    {
+      "address": "AFC2",
+      "source": "45535441535f4455524d49454e444f5f504945524445535f54555f5455524e4f",
+      "english": "YOU ARE ASLEEP.  MISS YOUR TURN ",
+      "align": "left"
+    },
+    {
+      "address": "AFE6",
+      "source": "524556495341535f4255534341535f5452414d5041533b505545525441535f5f5f5f5445534f524f535f5f5f5f",
+      "english": "   SEARCH FOR  TRAPS AND DOORS    TREASURE   ",
+      "align": "left"
+    },
+    {
+      "address": "BB92",
+      "source": "54555f4841535f455343415041444f44455f4c415f4d415a4d4f5252415f",
+      "english": " YOU HAVE LEFT   THE DUNGEON  ",
+      "align": "left"
+    },
+    {
+      "address": "BBB4",
+      "source": "455245535f5245434f4d50454e5341444f5f434f4e5f3130305f4d4f4e454441535f44455f4f524f5f5f",
+      "english": "YOU ARE REWARDED WITH    100 GOLD COINS   ",
+      "align": "left"
+    },
+    {
+      "address": "BBE2",
+      "source": "544f444f5f454c5f4f524f5f454e434f4e545241444f5f454e4c415f4d494e415f45535f4f524f5f46414c534f5f5f5f5f5f",
+      "english": "  ALL GOLD FOUND IN THE      MINE IS FOOLS GOLD   ",
+      "align": "left"
+    },
+    {
+      "address": "BC18",
+      "source": "454c5f41524d4152494f5f434f4e5449454e45554e415f504f43494f4e5f4355524154495641595f33305f4d4f4e454441535f44455f4f524f",
+      "english": " THE CUPBOARD HOLDS  A HEALING POTION  AND 30 GOLD COINS ",
+      "align": "left"
+    },
+    {
+      "address": "BC55",
+      "source": "454c5f434f4652455f434f4e5449454e455f3130305f4d4f4e454441535f44455f4f524f",
+      "english": " THE CHEST HOLDS    100 GOLD COINS  ",
+      "align": "left"
+    },
+    {
+      "address": "BC7D",
+      "source": "434144415f434f4652455f434f4e5449454e453130305f4d4f4e454441535f44455f4f524f5f",
+      "english": "  EACH CHEST HOLDS    100 GOLD COINS  ",
+      "align": "left"
+    },
+    {
+      "address": "BCA7",
+      "source": "434f4652455f4553544142415f564143494f",
+      "english": "THE CHEST IS EMPTY",
+      "align": "left"
+    },
+    {
+      "address": "BCBD",
+      "source": "5f454c5f434f4652455f434f4e5449454e455f554e415f504f43494f4e5f4355524154495641595f35305f4d4f4e454441535f44455f4f524f",
+      "english": "  THE CHEST HOLDS    A HEALING POTION  AND 50 GOLD COINS ",
+      "align": "left"
+    },
+    {
+      "address": "BCFA",
+      "source": "454c5f434f4652455f5449454e455f4c415f564152415f44455f524543554552444f5f593135305f4d4f4e454441535f44455f4f524f",
+      "english": "THE CHEST HOLDS A WAND OF RECALL AND  150 GOLD COINS  ",
+      "align": "left"
+    },
+    {
+      "address": "BD34",
+      "source": "5f5f454c5f434f4652455f434f4e5449454e455f5f5f5f554e415f5452414d50415f4558504c4f534956415f5f5f5f504945524445535f315f50554e544f5f5f5f5f",
+      "english": "  THE CHEST CONTAINS    AN EXPLOSIVE TRAP.    LOSE 1 BODY POINT   ",
+      "align": "left"
+    },
+    {
+      "address": "BD7A",
+      "source": "454c5f434f4652455f434f4e5449454e455452414d50415f4558504c4f534956415f54555f4c415f444553414354495641535f",
+      "english": " THE CHEST HOLDS  EXPLOSIVE TRAP.   YOU DISARM IT  ",
+      "align": "left"
+    },
+    {
+      "address": "BDB1",
+      "source": "454e4355454e545241535f4c414e5a415f454e5f4c415f41524d455249415f5f",
+      "english": "YOU FIND A SPEAR IN THE ARMOURY ",
+      "align": "left"
+    },
+    {
+      "address": "BDD5",
+      "source": "454e4355454e545241535f4c414e5a415045524f5f4c415f4445534543484153",
+      "english": "YOU FIND A SPEAR BUT DISCARD IT ",
+      "align": "left"
+    },
+    {
+      "address": "BDF9",
+      "source": "454e4355454e545241535f45534355444f5f5f454e5f4c415f41524d455249415f5f",
+      "english": "YOU FIND A SHIELD  IN THE ARMOURY ",
+      "align": "left"
+    },
+    {
+      "address": "BE1F",
+      "source": "454e4355454e545241535f45534355444f5045524f5f4c4f5f44455345434841535f",
+      "english": "YOU FIND A SHIELD  BUT DISCARD IT ",
+      "align": "left"
+    },
+    {
+      "address": "BE6F",
+      "source": "4c415f474152474f4c415f42524f54415f414c415f564944415f595f54455f4154414341",
+      "english": "THE GARGOYLE LIVES AND ATTACKS YOU  ",
+      "align": "left"
+    },
+    {
+      "address": "BE97",
+      "source": "5f454c5f434f4652455f434f4e5449454e455f3235305f4d4f4e454441535f44455f4f524f3a5f54414d4249454e54455f484143455f49525f4d41535f444553504143494f",
+      "english": "   THE CHEST CONTAINS      250 GOLD COINS.       IT SLOWS YOU DOWN   ",
+      "align": "left"
+    },
+    {
+      "address": "BEE0",
+      "source": "454c5f5052494e434950455f4d41474e555354455f5245434f4d50454e53415f434f4e5f3230305f4d4f4e454441535f44455f4f524f",
+      "english": "  PRINCE MAGNUS    REWARDS YOU WITH   200 GOLD COINS  ",
+      "align": "left"
+    },
+    {
+      "address": "BF1A",
+      "source": "54555f54455f5155454441535f434f4e5f454c5f4f524f5045524f5f50554544455f5155455f4e554e43415f5f5f4c4c45475545535f415f5345525f43414d50454f4e5f5f",
+      "english": "   YOU KEEP THE GOLD     BUT MAY NEVER BECOME        A CHAMPION      ",
+      "align": "left"
+    },
+    {
+      "address": "BF63",
+      "source": "5f5f454e4355454e545241535f4c415f5f5f4c4c4156455f44455f4d454c41525f414c5f544f4341524c415f44455341504152454345",
+      "english": "   YOU FIND THE    KEY OF MELAR. IT VANISHES ON TOUCH ",
+      "align": "left"
+    },
+    {
+      "address": "BF9D",
+      "source": "454e4355454e545241535f4c415f5f4553504144415f5f4553504952495455414c5f454e5f454c5f43454e54524f5f5f5f44455f4c415f48414249544143494f4e5f5f5f5f",
+      "english": "  YOU FIND THE SPIRIT    BLADE IN THE CENTRE        OF THE ROOM      ",
+      "align": "left"
+    },
+    {
+      "address": "BFE6",
+      "source": "454e4355454e545241535f454c5f54414c49534d414e5f5341424552",
+      "english": " YOU FIND THE LORE TALISMAN ",
+      "align": "left"
+    },
+    {
+      "address": "C006",
+      "source": "48414c4c41535f4c415f41524d41445552415f424f52494e5f",
+      "english": "  YOU FIND BORIN ARMOUR  ",
+      "align": "left"
+    },
+    {
+      "address": "C023",
+      "source": "454c5f434f4652455f5449454e455f3230305f4d4f4e454441535f4f524f",
+      "english": "THE CHEST HOLDS 200 GOLD COINS",
+      "align": "left"
+    },
+    {
+      "address": "C045",
+      "source": "5f5f5f454c5f5a4f4d42495f5155455f455354415f5f5f5f5f454e5f455354415f48414249544143494f4e5f45535f5f5f4b41524c454e5f454c5f4655455f434f4e53554d49444f5f5f504f525f554e5f48454348495a4f5f43414f5449434f5f5f5f5155455f454c5f4d49534d4f5f4352454f5f5f5f5f",
+      "english": "THE ZOMBIE IN THIS ROOM    IS KARLEN. HE WAS      CONSUMED BY A CHAOS    SPELL THAT HE HIMSELF        HAD CREATED       ",
+      "align": "left"
+    },
+    {
+      "address": "C0C1",
+      "source": "454e4355454e545241535f54555f45515549504f5f5f5f4553434f4e4449444f5f454e5f455354415f5f48414249544143494f4e3a4c4f5f5245434f474553",
+      "english": "  YOU FIND YOUR GEAR  HIDDEN IN THIS ROOM.    YOU PICK IT UP   ",
+      "align": "left"
+    },
+    {
+      "address": "C104",
+      "source": "5f5f4841535f524f544f5f454c5f53454c4c4f5f5f5f5f4d414749434f5f4c415f4752414e5f4252554a4f5f53455f48415f4445535045525441444f5f534f4c4f5f4c415f5f4553504144415f5f4553504952495455414c5f5f50554544455f48414345524c455f44414e4f5f5f",
+      "english": " YOU BREAK THE MAGIC   SEAL. THE WITCH LORD   AWAKENS. ONLY THE      SPIRIT BLADE CAN          HARM HIM       ",
+      "align": "left"
+    },
+    {
+      "address": "C176",
+      "source": "44455f524550454e54455f454c5f544543484f53455f4341455f454e43494d415f44455f5449",
+      "english": " SUDDENLY THE ROOF FALLS ON TOP OF YOU",
+      "align": "left"
+    },
+    {
+      "address": "C1A0",
+      "source": "5f5f5f5f504945524445535f315f50554e544f5f5f5f",
+      "english": "  LOSE 1 BODY POINT   ",
+      "align": "left"
+    },
+    {
+      "address": "B024",
+      "source": "4445534541535f4154414341525f5f4f5452415f56455a5f5f5f5f4e4f5f5f5f5f5f5f5f53495f",
+      "english": "    ATTACK       AGAIN     NO       YES",
+      "align": "left"
+    },
+    {
+      "address": "B05C",
+      "source": "5f5f4445534541535f5f5f51554544415254455f434f4e5f454c5f4f524f5f4e4f5f5f5f5f53495f",
+      "english": "  DO YOU   WANT TO  KEEP GOLD  NO    YES",
+      "align": "left"
+    },
+    {
+      "address": "B088",
+      "source": "4445534541535f49525f41504f525f4d41535f4f524f5f5f4e4f5f5f5f5f53495f",
+      "english": "DO YOU WANT MORE GOLD   NO    YES",
+      "align": "left"
+    },
+    {
+      "address": "B0BA",
+      "source": "4445534541535f444956494449524c415f5245434f4d50454e53415f5f4e4f5f5f5f5f5f5f5f5f53495f",
+      "english": "DO YOU WISH TO SHARE REWARD  NO        YES",
+      "align": "left"
+    },
+    {
+      "address": "B0F5",
+      "source": "5f4445534541535f434f4745525f353030305f4d4f4e454441535f44455f4f524f3a5f53495f4c41535f434f4745535f4e4f5f504f445241534154414341525f4e495f444546454e4445525f5f5f53495f5f5f5f5f5f5f5f5f5f5f4e4f5f5f",
+      "english": "   TAKE 5000 GOLD   COINS. IF YOU DO,  YOU CANNOT ATTACK      OR DEFEND.      YES          NO  ",
+      "align": "left"
+    },
+    {
+      "address": "BE45",
+      "source": "4c415f474152474f4c415f415441434152415f53495f41425245535f455354455f434f465245",
+      "english": "OPEN THIS CHEST AND THE GARGOYLE HITS ",
+      "align": "left"
+    },
+    {
+      "address": "AE07",
+      "source": "5f5f4841535f454e434f4e545241444f5f554e415f5f5f504f43494f4e5f44455f",
+      "english": "      YOU FIND A       POTION OF ",
+      "align": "left"
+    },
+    {
+      "address": "AE33",
+      "source": "4355414e444f5f454d504c4541535f",
+      "english": "WHEN USED, IT  ",
+      "align": "left"
+    },
+    {
+      "address": "AE7B",
+      "source": "56454c4f43494441445f",
+      "english": "SPEED",
+      "align": "left"
+    },
+    {
+      "address": "AE85",
+      "source": "53414c55445f5f5f5f5f",
+      "english": "HEALING",
+      "align": "left"
+    },
+    {
+      "address": "AE8F",
+      "source": "465545525a415f5f5f5f",
+      "english": "STRENGTH",
+      "align": "left"
+    },
+    {
+      "address": "AE99",
+      "source": "524553495354454e4349",
+      "english": "RESILIENCE",
+      "align": "left"
+    },
+    {
+      "address": "AEA3",
+      "source": "4845524f494349444144",
+      "english": "HEROISM",
+      "align": "left"
+    },
+    {
+      "address": "AEAD",
+      "source": "414755415f53414e5441",
+      "english": "HOLY WATER",
+      "align": "left"
+    },
+    {
+      "address": "AEB7",
+      "source": "4455504c49434154555f4e554d45524f5f4d4f56494d49454e544f535f",
+      "english": "DOUBLESYOUR MOVEMENT POINTS",
+      "align": "left"
+    },
+    {
+      "address": "AED4",
+      "source": "52455354415552415f345f44455f5455535f50554e544f535f5f5f5f5f",
+      "english": "HEALS  4 BODY POINTS",
+      "align": "left"
+    },
+    {
+      "address": "AEF1",
+      "source": "41554d454e54415f54555f465545525a415f44455f4154415155455f5f",
+      "english": "BOOSTS YOUR ATTACK STRENGTH",
+      "align": "left"
+    },
+    {
+      "address": "AF0E",
+      "source": "41554d454e54415f54555f465545525a415f44455f444546454e53415f",
+      "english": "BOOSTS YOUR DEFENCE STRENGTH",
+      "align": "left"
+    },
+    {
+      "address": "AF2B",
+      "source": "5045524d4954455f325f415441515545535f504f525f4a55474144415f",
+      "english": "GRANTS 2 ATTACKS IN ONE TURN",
+      "align": "left"
+    },
+    {
+      "address": "AF48",
+      "source": "4d4154415f5f5f5f5f5f544f44415f43524941545552415f564956415f",
+      "english": "KILLS  ALL UNDEAD IN THE ROOM",
+      "align": "left"
+    },
+    {
+      "address": "B052",
+      "source": "15",
+      "english_bytes": "16",
+      "note": "Include all three letters of YES in the click region."
+    },
+    {
+      "address": "B0B0",
+      "source": "15",
+      "english_bytes": "16",
+      "note": "Include all three letters of YES in the click region."
+    },
+    {
+      "address": "B0EB",
+      "source": "17",
+      "english_bytes": "18",
+      "note": "Include all three letters of YES in the click region."
+    },
+    {
+      "address": "B15B",
+      "source": "0b",
+      "english_bytes": "0c",
+      "note": "Include all three letters of YES in the click region."
+    },
+    {
+      "address": "BE41",
+      "source": "05091502",
+      "english_bytes": "06091302",
+      "note": "The original allocates only 38 text bytes. Fit the English warning to 19x2 cells, centred, so rendering does not read the next box header."
+    }
+  ],
+  "overlay": [
+    {
+      "address": "6566",
+      "source": "494e53455254415f454c5f4c55474152",
+      "english": "INSERT THE TAPE",
+      "align": "left"
+    },
+    {
+      "address": "6579",
+      "source": "50554c53415f5245434f52445f595f464952455f504152415f47554152444152",
+      "english": "PRESS RECORD AND FIRE TO SAVE",
+      "align": "left"
+    },
+    {
+      "address": "659F",
+      "source": "494e53455254415f454c5f4c554741525f595f50554c53415f504c4159",
+      "english": "INSERT SAVE MEDIA. PRESS PLAY",
+      "align": "left"
+    },
+    {
+      "address": "6667",
+      "source": "4a55474152",
+      "english": "PLAY",
+      "align": "left"
+    },
+    {
+      "address": "666F",
+      "source": "434f4d505241525f45515549504f",
+      "english": "BUY EQUIPMENT",
+      "align": "left"
+    },
+    {
+      "address": "6680",
+      "source": "43524541525f504552534f4e414a45",
+      "english": "CREATE HERO",
+      "align": "left"
+    },
+    {
+      "address": "6692",
+      "source": "4f5043494f4e45535f",
+      "english": "OPTIONS",
+      "align": "left"
+    },
+    {
+      "address": "66BB",
+      "source": "5f5f5f544f444f535f4c4f535f4a554741444f5245535f4d554552544f535f5f5f",
+      "english": "ALL YOUR HEROES ARE DEAD",
+      "align": "left"
+    },
+    {
+      "address": "66DF",
+      "source": "435245415f4a554741444f5245535f4e5545564f53",
+      "english": "CREATE NEW HEROES",
+      "align": "left"
+    },
+    {
+      "address": "66FA",
+      "source": "48454348495a4f535f41495245",
+      "english": "AIR SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "6710",
+      "source": "48454348495a4f535f465545474f",
+      "english": "FIRE SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "6727",
+      "source": "48454348495a4f535f544945525241",
+      "english": "EARTH SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "673F",
+      "source": "48454348495a4f535f41475541",
+      "english": "WATER SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "6750",
+      "source": "4455454e4445",
+      "english": "ELF",
+      "align": "left"
+    },
+    {
+      "address": "6757",
+      "source": "48454348494345524f",
+      "english": "WIZARD",
+      "align": "left"
+    },
+    {
+      "address": "6766",
+      "source": "47454e494f5f5f",
+      "english": "GENIE",
+      "align": "left"
+    },
+    {
+      "address": "6770",
+      "source": "54454d504553544144",
+      "english": "TEMPEST",
+      "align": "left"
+    },
+    {
+      "address": "677C",
+      "source": "4855524143414e",
+      "english": "WIND",
+      "align": "left"
+    },
+    {
+      "address": "6786",
+      "source": "56414c4f52",
+      "english": "VALOR",
+      "align": "left"
+    },
+    {
+      "address": "678E",
+      "source": "434f4c4552415f44455f465545474f",
+      "english": "FIRE OF WRATH",
+      "align": "left"
+    },
+    {
+      "address": "67A0",
+      "source": "424f4c415f44455f465545474f",
+      "english": "BALL OF FLAME",
+      "align": "left"
+    },
+    {
+      "address": "67B0",
+      "source": "5049454c5f44455f524f4341",
+      "english": "ROCK SKIN",
+      "align": "left"
+    },
+    {
+      "address": "67BF",
+      "source": "53414e41525f48455249444153",
+      "english": "HEAL BODY",
+      "align": "left"
+    },
+    {
+      "address": "67CF",
+      "source": "4154524156455341525f4d55524f53",
+      "english": "PASS THROUGH",
+      "align": "left"
+    },
+    {
+      "address": "67E1",
+      "source": "444f524d4952",
+      "english": "SLEEP",
+      "align": "left"
+    },
+    {
+      "address": "67EA",
+      "source": "56454c4f5f44455f4e4945424c415f",
+      "english": "MIST CLOAK",
+      "align": "left"
+    },
+    {
+      "address": "67FC",
+      "source": "41475541535f435552415449564153",
+      "english": "HEALING WATER",
+      "align": "left"
+    },
+    {
+      "address": "6811",
+      "source": "4455454e44455f5f5f",
+      "english": "ELF",
+      "align": "left"
+    },
+    {
+      "address": "681D",
+      "source": "454c4947455f54555f475255504f5f44455f48454348495a4f535f5f5f5f",
+      "english": "CHOOSE YOUR SPELL GROUP",
+      "align": "left"
+    },
+    {
+      "address": "6841",
+      "source": "48454348494345",
+      "english": "WIZARD",
+      "align": "left"
+    },
+    {
+      "address": "684D",
+      "source": "454c4947455f5455535f5052494d45524f535f48454348495a4f535f",
+      "english": "CHOOSE YOUR FIRST SPELLS",
+      "align": "left"
+    },
+    {
+      "address": "686F",
+      "source": "48454348494345524f",
+      "english": "WIZARD",
+      "align": "left"
+    },
+    {
+      "address": "687B",
+      "source": "454c4947455f5455535f335f475255504f535f44455f48454348495a4f53",
+      "english": "CHOOSE YOUR 3 SPELL GROUPS",
+      "align": "left"
+    },
+    {
+      "address": "689F",
+      "source": "454c5f4c41424552494e544f",
+      "english": "THE MAZE",
+      "align": "left"
+    },
+    {
+      "address": "68AE",
+      "source": "454c5f524553434154455f44455f5349525f5241474e4152",
+      "english": "THE RESCUE OF SIR RAGNAR",
+      "align": "left"
+    },
+    {
+      "address": "68C9",
+      "source": "4c415f475541524944415f44455f4c4f535f4f5243535f",
+      "english": "LAIR OF THE ORC WARLORD",
+      "align": "left"
+    },
+    {
+      "address": "68E3",
+      "source": "454c5f4f524f5f44454c5f5052494e434950455f4d41474e5553",
+      "english": "PRINCE MAGNUS GOLD",
+      "align": "left"
+    },
+    {
+      "address": "6900",
+      "source": "454c5f4c41424552494e544f5f4d454c4152",
+      "english": "MELARS MAZE",
+      "align": "left"
+    },
+    {
+      "address": "6915",
+      "source": "454c5f4c454741444f5f4f52435f",
+      "english": "LEGACY OF ORC",
+      "align": "left"
+    },
+    {
+      "address": "6926",
+      "source": "454c5f43415a41444f525f44455f504945445241",
+      "english": "THE STONE HUNTER",
+      "align": "left"
+    },
+    {
+      "address": "693D",
+      "source": "4d41474f5f44454c5f465545474f5f",
+      "english": "THE FIRE MAGE",
+      "align": "left"
+    },
+    {
+      "address": "694F",
+      "source": "434152524552415f434f4e5452415f454c5f5449454d504f",
+      "english": "RACE AGAINST TIME",
+      "align": "left"
+    },
+    {
+      "address": "696A",
+      "source": "454c5f43415354494c4c4f5f4d4953544552494f534f",
+      "english": "THE MYSTERIOUS CASTLE",
+      "align": "left"
+    },
+    {
+      "address": "6983",
+      "source": "454c5f42414c55415254455f44455f43414f535f",
+      "english": "BASTION OF CHAOS",
+      "align": "left"
+    },
+    {
+      "address": "699A",
+      "source": "424152414b5f544f52",
+      "english": "BARAK TOR",
+      "align": "left"
+    },
+    {
+      "address": "69A6",
+      "source": "5f5f5f5f5f4c415f4553504144415f4553504952495455414c5f5f5f5f5f5f5f5f5f5f",
+      "english": "THE SPIRIT BLADE",
+      "align": "left"
+    },
+    {
+      "address": "69CC",
+      "source": "5245475245534f5f415f424152414b5f544f525f5f",
+      "english": "RETURN TO BARAK TOR",
+      "align": "left"
+    },
+    {
+      "address": "69EC",
+      "source": "4241524241524f",
+      "english": "BARB.",
+      "align": "left"
+    },
+    {
+      "address": "69F6",
+      "source": "454e414d4f",
+      "english": "DWARF",
+      "align": "left"
+    },
+    {
+      "address": "69FE",
+      "source": "4455454e4445",
+      "english": "ELF",
+      "align": "left"
+    },
+    {
+      "address": "6A07",
+      "source": "48454348494345524f",
+      "english": "WIZARD",
+      "align": "left"
+    },
+    {
+      "address": "6A67",
+      "source": "41524d4153",
+      "english": "ARMS",
+      "align": "left"
+    },
+    {
+      "address": "6A6F",
+      "source": "56414c4f52",
+      "english": "PRICE",
+      "align": "left"
+    },
+    {
+      "address": "6A77",
+      "source": "41524d4144555241",
+      "english": "ARMOUR",
+      "align": "left"
+    },
+    {
+      "address": "6A82",
+      "source": "56414c4f52",
+      "english": "PRICE",
+      "align": "left"
+    },
+    {
+      "address": "6A97",
+      "source": "43414a41",
+      "english": "KIT",
+      "align": "left"
+    },
+    {
+      "address": "6AA1",
+      "source": "43414a41",
+      "english": "KIT",
+      "align": "left"
+    },
+    {
+      "address": "6AB7",
+      "source": "454c4947455f4a554741444f52",
+      "english": "CHOOSE HERO",
+      "align": "left"
+    },
+    {
+      "address": "6ACA",
+      "source": "4241524241524f",
+      "english": "BARB.",
+      "align": "left"
+    },
+    {
+      "address": "6AD7",
+      "source": "454e414e4f",
+      "english": "DWARF",
+      "align": "left"
+    },
+    {
+      "address": "6AE2",
+      "source": "4455454e4445",
+      "english": "ELF",
+      "align": "left"
+    },
+    {
+      "address": "6AEE",
+      "source": "48454348494345524f",
+      "english": "WIZARD",
+      "align": "left"
+    },
+    {
+      "address": "6AFD",
+      "source": "46494e414c",
+      "english": "BACK",
+      "align": "left"
+    },
+    {
+      "address": "6B11",
+      "source": "5f4d554552544f5f",
+      "english": "DEAD",
+      "align": "left"
+    },
+    {
+      "address": "6B3F",
+      "source": "494e53455254415f454c5f4c554741525f595f50554c53415f46495245",
+      "english": "INSERT SAVE MEDIA. PRESS FIRE",
+      "align": "left"
+    },
+    {
+      "address": "6B62",
+      "source": "4e4f4d4252455f4a554741444f52",
+      "english": "HERO NAME",
+      "align": "left"
+    },
+    {
+      "address": "6B73",
+      "source": "434152474152",
+      "english": "LOAD",
+      "align": "left"
+    },
+    {
+      "address": "6B7F",
+      "source": "47554152444152",
+      "english": "SAVE",
+      "align": "left"
+    },
+    {
+      "address": "6B8C",
+      "source": "4a554741444f525f45535f554e5f",
+      "english": "YOUR HERO IS A",
+      "align": "left"
+    },
+    {
+      "address": "6BBB",
+      "source": "46494e",
+      "english": "END",
+      "align": "left"
+    },
+    {
+      "address": "6BC5",
+      "source": "454c454749525f4c4f535f434f4e54524f4c4553",
+      "english": "SELECT CONTROLS",
+      "align": "left"
+    },
+    {
+      "address": "6C01",
+      "source": "333a4d414e5553435249544f",
+      "english": "3.GOTHIC",
+      "align": "left"
+    },
+    {
+      "address": "6C12",
+      "source": "303a53414c494441",
+      "english": "0.EXIT",
+      "align": "left"
+    }
+  ]
+}

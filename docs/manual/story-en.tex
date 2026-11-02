@@ -1,0 +1,47 @@
+\chapter{Introduction}
+\textit{HeroQuest} is a turn-based fantasy adventure based on the famous board game. Up to four heroes---a barbarian, a dwarf, an elf and a wizard---enter dungeons full of monsters, traps and treasure to carry out missions set by Mentor, guardian of the book Loretome. Opposing them is Morcar, the Lord of Chaos, played by the computer: it moves the monsters and chooses their attacks, so all the players can cooperate on the same side.
+
+This MSX2 version brings together the fourteen adventures of Gremlin Graphics' original game and the ten from its expansion, \textit{Return of the Witch Lord}: twenty-four adventures in one cartridge, with an animated introduction, mouse, keyboard or joystick control, and digital music when an OPL4 cartridge is available.
+
+This manual describes version \versionjuego{}, whose number appears in the main menu below DiHalt's credits.
+
+One to four people can play. With four players, each controls one hero; with fewer, each player may control several. A lone player can venture out with one character or the whole party.
+
+Read this manual before you start. The rules are straightforward, but the dungeon is unforgiving to those who enter without knowing them.
+\pantalla[0.8]{sala_monstruos}{The barbarian enters a room occupied by Morcar's servants.}
+\subsection{The chronicles of Loretome}
+``Listen carefully to the words of Mentor, guardian of Loretome, for I shall tell you of times past, of dark days when the Empire was saved against all hope. I fear that darkness is about to return.''
+
+Morcar's legions, the Lord of Chaos, had laid waste to everything. Before the Black Banner and the hordes of Chaos, even the Emperor's bravest warriors turned and fled. The land was devastated and its people lost hope.
+
+Then a mighty warrior prince came from the Borderlands: Rogar the Barbarian. On his brow shone a diamond, the Star of the West, the jewel worn by the ancient kings of legend. Hope returned with him, and people left their hiding places in hills and forests to gather beneath his banner. Other great heroes joined him: Durgin, the fearless dwarf warrior from the World's Edge Mountains; Ladril, the elven warrior-mage from distant Athelorn; and Telor, the wizard whose magic would save Rogar more than once.
+
+For years Rogar trained his army. He avoided battle with Morcar's general until everything was ready, while harassing supply lines and destroying bands of orcs and goblins. At last the day arrived. Camped in the high passes, Ladril saw the dark host in the distance and asked Durgin to sound the call to arms on his mighty horn. Rogar's armies struck from two sides. Many foul creatures and many good men died that day, but as daylight faded it was Darkness that left the field.
+
+Victory was incomplete. Morcar and his general escaped beyond the Sea of Claws, where they still plot revenge. Soon their plans will be ready and the Empire will need another Rogar. Where are the heroes who can match him? Much must be learned before you can be as great as he and his companions.
+
+Mentor will help as far as he can. The book he carries, Loretome, was written when time began. Its countless pages record all that has been and all that will be. Through it he can guide you, but he is forbidden to intervene, for then a greater evil would fall upon the world and Chaos would triumph forever.
+
+\chapter{Sound}
+The game automatically recognises the available sound equipment. There is nothing to configure. At start-up, the DiHalt logo has its own musical fanfare, played through MoonSound when present or through the internal PSG otherwise. After the logo, the introduction, menus and adventures use the music described below.
+\subsection{Internal sound}
+The MSX's internal sound plays the original game's music---one tune for menus and the introduction, another for adventures---and its effects: footsteps, doors, blows and wounds. Music and effects do not play together: while music is enabled you will not hear effects. Switch it off as described below to hear them.
+\subsection{With an OPL4 cartridge (MoonSound)}
+If an OPL4 is present at start-up, music plays through it: digital music taken from the Amiga version's modules, with one tune for the introduction and menus and another during adventures. The game's sound effects are also heard, so music and effects play together.
+\subsection{Switching music on and off}
+In the options screen (\pant{OPTIONS} in the main menu), \pant{MUSIC ON}/\pant{MUSIC OFF} switches music on or off. Without OPL4, switching it off lets you play with sound effects.
+
+\chapter{The introduction}\label{cap:intro}
+After the opening illustration, choose \pant{ENGLISH} or \pant{ESPAÑOL}. The animated introduction and the rest of the game use that language for the session. Evening falls over the city. In his study, by a fire that gives warmth but little light, Mentor gathers his pupils. Among shadows that hint at shelves full of books and scrolls, the old wizard approaches the fireplace and speaks.
+\dospantallas{intro_titulo_en}{intro_ciudad}{The title and the first scene of the introduction.}
+Their training is complete, he tells them, but they are not heroes yet: first they must prove themselves. To explain what they face, he tells them Morcar's story.
+
+Many centuries ago Morcar was his apprentice. He worked hard and learned quickly, but impatience consumed him: he wanted ever more powerful magic. Mentor warned him of its dangers and asked for patience, for in time he would become a great wizard. Morcar would not wait. Night after night he slipped into his master's study to read his spell books. Once he had learned their great secrets, he fled.
+\dospantallas{intro_mentor}{intro_texto_en}{Mentor tells of his apprentice's betrayal. The text follows the language chosen at start-up.}
+When Mentor found him, Morcar had changed greatly: he had sworn allegiance to the great powers of Chaos. Mentor tried to reason with him, but Morcar laughed in his face and unleashed a terrible spell. They fought for days. Morcar had allies stronger than Mentor himself, who could not defeat him. When both were exhausted, the traitor escaped to the Chaos wastes in the north.
+
+There he healed his wounds, perfected his arts and summoned ancient powers to overthrow the Empire. These powers would serve him while it suited their dark purposes, and would eventually destroy him. Ever since, Mentor has watched Morcar and measured the strength of his magic: what he has summoned could destroy everyone if that watchfulness faltered. His legions threatened the Empire once before and Rogar defeated them. Now they march again and have attacked the borders.
+\dospantallas{intro_estudio}{intro_sala}{Two more scenes from the introduction.}
+The Empire needs heroes again, and that is what the pupils have trained for. Each must overcome three trials. Those who succeed will be acclaimed champions of the realm and appointed Imperial Knights, truly setting out on the path of heroes. ``I shall speak to you again when you return\ldots{} if you return.''
+
+The introduction is shown only once, when the computer is switched on. Skip it at any time with \key{SPACE}, \key{ESC} or the right mouse button.

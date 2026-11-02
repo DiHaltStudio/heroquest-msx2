@@ -1,0 +1,178 @@
+\chapter{How to play}
+\subsection{The game screen}
+The dungeon is shown one room at a time, in an isometric view surrounded by the current hero's information and action icons.
+
+At the upper left, the red heart shows body points, the gold bag shows gold, and the cyan footprint shows available movement. Messages and search options appear on scrolls whose borders and textures vary with the room's background colour.
+\pantalla[0.80]{pantalla_juego}{The game screen.}
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}rL@{}}
+\toprule
+1 & Name of the hero whose turn it is\\
+2 & Red heart: body points. The hero dies if they reach zero\\
+3 & Mind points\\
+4 & Gold bag: the hero's gold\\
+5 & Cyan footprint: movement remaining this turn\\
+6 & Room or corridor view. Click a square to walk there\\
+7 & Next player: end the turn\\
+8 & Key: open the door in front of the hero\\
+9 & Direction arrows: move the hero one square\\
+10 & Eye: search for traps and secret doors, or treasure\\
+11 & Bag: hero's inventory (potions, weapons, armour, spells and quest treasures)\\
+12 & Sword: attack\\
+13 & Scroll: dungeon map\\\bottomrule
+\end{tabularx}\caption{Game screen elements.}\end{table}
+\subsection{The turn}
+Heroes take turns in order; the current hero's name appears at the upper left. Once everyone has played, Morcar takes his turn, then the cycle begins again.
+
+On a turn, a hero may \textbf{move} and take \textbf{one action}: attack, cast a spell or search. They may move first and act afterwards, or act first and then move. They cannot move, act and resume moving. Neither acting nor using all movement is compulsory. Click next player when finished.
+\subsection{Movement}
+At the beginning of a turn, the movement number spins continuously in place of the board game's dice. \textbf{Press action to stop it}; the remaining number is how many squares that hero may move. The game accounts for everything affecting the roll: heroes normally roll two dice, but only one when wearing plate armour or carrying something very heavy.
+
+There are two ways to move:
+\begin{itemize}
+\item use the \textbf{direction arrows}, one square at a time;
+\item click a \textbf{destination square} in the view: if it is in a straight line and enough movement remains, the hero walks there.
+\end{itemize}
+Movement rules:
+\begin{itemize}
+\item You cannot move diagonally.
+\item You cannot finish on a square occupied by a monster or furniture, or pass through walls or rubble (\pant{BLOCKED}).
+\item Two heroes may share a square, but neither can attack from it.
+\item Monsters have fixed movement and do not roll for it.
+\end{itemize}
+\subsubsection*{Doors}
+Heroes and monsters can enter or leave rooms only through open doors. Monsters cannot open doors. Heroes can do so by standing in front of one and clicking the \textbf{key}, or simply by walking through it: the game opens it automatically. Opening a door costs no movement and it stays open for the rest of the adventure. You cannot go back through a door you have just used in the same turn.
+\subsubsection*{The exit}
+In most adventures the heroes start beside a spiral stairway, which is also the \pant{EXIT}. A hero who steps onto it leaves the dungeon. The adventure ends when no heroes remain inside.
+\pantalla[0.78]{sala_inicio}{The four heroes beside the stairs at the start of an adventure.}
+\subsection{Searching}
+Instead of attacking or casting a spell, a hero may search before or after moving. Click the eye and the game asks what to search for:
+\pantalla[0.78]{buscar_en}{The search menu: traps and secret doors, or treasure.}
+\begin{description}
+\item[\pant{TRAPS AND DOORS}] Inspect the hero's current room or corridor section. Discovered secret doors become visible and remain open for the rest of the adventure; traps are revealed.
+\item[\pant{TREASURE}] Search the room. You may find gold, a potion, the adventure's special treasure\ldots{} or something worse.
+\end{description}
+You cannot search for treasure while monsters are in the same room. Monsters never search.
+\subsubsection*{Treasure}
+Some rooms contain a particular treasure, usually mentioned in the adventure's briefing. Elsewhere searching is a matter of luck: most often you find coins (10 to 100), and sometimes a potion. You may instead find nothing, trigger a trap costing one body point, or face a \textbf{wandering monster} that has followed you and attacks immediately. Each room may be searched only once.
+
+Some chests are trapped. Searching the room for traps before searching for treasure disarms the chest's trap.
+\subsubsection*{Traps}
+Traps are invisible until a hero discovers them by searching or triggers them. Monsters do not trigger traps.
+\begin{description}
+\item[Pit] Falling in costs one body point. The pit remains visible as an obstacle (\pant{TRAP}). You may try jumping it, risking a stumble, another fall and another lost body point.
+\item[Falling rock] The ceiling collapses as you pass: the hero may be hurt and a rock permanently blocks the way. Beware: it may cut off your retreat.
+\item[Spear] A spear shoots from a wall at the first hero to step on the square. It may hit or miss, but only fires once. Finding it in a search disables it.
+\end{description}
+A hero who triggers a trap can do nothing else until their next turn.
+
+The \textbf{dwarf} always carries a tool kit. To disarm a revealed trap beside him, open the inventory and click the kit. Other heroes can do the same after buying one in the shop. Disarming is risky: if it fails, the trap triggers and costs one body point.
+\subsection{Combat}
+To attack a monster, stand \textbf{beside it}: in front, behind or to one side. You cannot attack diagonally unless your weapon allows it (staff, dagger or spear). A crossbow, or a thrown axe or spear, can attack a visible, non-adjacent enemy at a distance.
+
+To attack:
+\begin{enumerate}
+\item Click the \textbf{sword}. The screen changes to the map.
+\item Click your chosen enemy. At the bottom, \pant{ARMS} opens the inventory to change weapons; \pant{CANCEL} returns to the room without attacking.
+\item The combat screen appears with the result.
+\end{enumerate}
+\dospantallas{mapa_ataque_en}{combate_victoria_en}{Selecting an enemy on the map and the result of a successful attack.}
+The computer rolls for both sides. Special six-sided combat dice have three \textbf{skulls}, two \textbf{hero shields} and one \textbf{monster shield}.
+\begin{itemize}
+\item The attacker rolls as many dice as their attack value. Each skull is a hit.
+\item The defender rolls their defence dice. Each shield \emph{belonging to their side} cancels one hit. Heroes defend on two faces of each die; monsters on only one.
+\item Each uncancelled hit removes one body point.
+\end{itemize}
+Most monsters have only one body point and fall to the first hit they fail to block. A hero dies when their body points reach zero.
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}lcc@{}}
+\toprule\textbf{Hero} & \textbf{Attack dice} & \textbf{Defence dice}\\\midrule
+Barbarian &3&2\\ Dwarf &2&2\\ Elf &2&2\\ Wizard &1&2\\\bottomrule
+\end{tabular}\caption{Heroes' combat dice without additional equipment.}\end{table}
+Weapons and armour alter these values as shown in the shop tables. A hero who defeats their opponent before moving may still move afterwards. Check your position before clicking the sword: if the selected enemy is out of range, the game warns you and the turn's action is lost.
+\dospantallas{combate_bloqueado_en}{combate_herido_en}{Morcar's turn: one blocked enemy attack and another that wounds the barbarian.}
+\begin{figure}[H]\centering
+\includegraphics[width=0.32\linewidth]{lamina_0_en}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_1_en}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_4_en}\\[2pt]
+\includegraphics[width=0.32\linewidth]{lamina_2_en}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_3_en}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_8_en}
+\caption{Some of the illustrations accompanying combat.}\end{figure}
+\subsection{Morcar's turn}
+Once every hero has played, the map fills the screen with \pant{MORCAR TAKES HIS TURN}. The computer moves the monsters the heroes have discovered, one by one. Those that reach a hero attack. Each attack uses the combat screen, just as the heroes' attacks do. When finished, the game announces it and returns the turn to the first hero.
+\pantalla[0.78]{turno_morcar_en}{Follow Morcar's turn on the map.}
+\subsection{The map}
+The scroll icon displays the dungeon map. It shows only explored rooms and corridors, their doors, furniture, discovered traps and stairs, and the positions of heroes and visible monsters. Consulting it does not cost your turn. Press action to return to the room.
+
+The same map is used to choose the target of an attack or spell.
+\subsection{Magic}
+Only the wizard and elf can use magic. Each spell may be cast \textbf{once per adventure}. Casting replaces that turn's attack and may take place before or after moving.
+
+To cast a spell:
+\begin{enumerate}
+\item Open the inventory (bag icon).
+\item Click the spell in the \pant{SPELLS} list, then \pant{EXIT}.
+\item On the map, click the character or monster to target. A message reports the result.
+\end{enumerate}
+\pantalla[0.7]{hoja_hechicero_en}{The wizard's inventory, with his nine spells.}
+The target must be visible. Anyone in the caster's room is visible; in corridors or between different rooms there must be a straight line without walls, closed doors or other figures in between. If that line is blocked, the spell is deflected and lost. A caster may always cast on themselves.
+\subsubsection*{Air spells}
+\begin{description}
+\item[Genie (\pant{GENIE})] Summons a genie to attack any enemy once with five combat dice, or to open a door.
+\item[Tempest (\pant{TEMPEST})] A whirlwind surrounds a monster or hero, causing them to miss their next turn.
+\item[Swift Wind (\pant{SWIFT WIND})] The chosen hero rolls twice as many dice for their next movement.
+\end{description}
+\subsubsection*{Fire spells}
+\begin{description}
+\item[Courage (\pant{VALOUR})] The chosen hero rolls two extra dice whenever attacking, until no monsters remain in sight.
+\item[Fire of Wrath (\pant{WRATH FIRE})] Finds an enemy anywhere on the board and causes one point of damage unless they roll a shield on one die.
+\item[Ball of Flame (\pant{BALL OF FLAME})] Causes two points of damage to a monster or hero. The victim rolls two dice, subtracting one point for each shield.
+\end{description}
+\subsubsection*{Earth spells}
+\begin{description}
+\item[Rock Skin (\pant{ROCK SKIN})] The chosen hero rolls two extra defence dice until wounded.
+\item[Heal Body (\pant{HEAL BODY})] Restores up to four lost body points.
+\item[Pass Through Rock (\pant{PASS THROUGH})] On their next movement, the chosen hero may pass through as many walls as their movement allows.
+\end{description}
+\subsubsection*{Water spells}
+\begin{description}
+\item[Sleep (\pant{SLEEP})] Puts a monster or hero into a deep sleep unless they resist with their mind points. A sleeper cannot defend. They may wake at the start of each turn, and wake if attacked.
+\item[Veil of Mist (\pant{MIST CLOAK})] On their next movement, the chosen hero passes unseen through occupied squares and monsters do not attack them.
+\item[Water of Healing (\pant{HEALING WATER})] Restores up to four lost body points.
+\end{description}
+The spell descriptions above use the inventory labels. During spell selection, Swift Wind is shortened to \pant{WIND}, Courage appears as \pant{VALOR}, and Fire of Wrath is shown as \pant{FIRE OF WRATH}.
+\subsection{Inventory, potions and items}
+The bag icon opens the hero's inventory, divided into \pant{POTIONS}, \pant{ARMS}, \pant{ARMOUR}, \pant{SPELLS} (elf and wizard only) and \pant{TREASURE SEARCH}, which contains special items found on adventures. Click a weapon to wield it, armour to wear it, or a potion to drink it. Items in use are highlighted. \pant{EXIT} closes the inventory.
+\pantalla[0.7]{hoja_barbaro_en}{The barbarian's inventory at the beginning: still empty.}
+\subsubsection*{Potions}
+Potions are found by searching for treasure. Each can be used only once.
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule\textbf{Potion} & \textbf{Effect}\\\midrule
+Healing (\pant{HEALING}) & Instantly restores up to four body points, without exceeding the hero's maximum\\
+Strength (\pant{MIGHT}) & Two extra dice for the next attack\\
+Resilience (\pant{RESILIENCE}) & Two extra dice for the next defence\\
+Speed (\pant{SPEED}) & Double movement dice next turn\\
+Heroic (\pant{HEROIC}) & Allows two attacks in the same turn\\
+Holy Water (\pant{HOLY WATER}) & Sacred water against undead (skeletons, zombies and mummies) in the room\\\bottomrule
+\end{tabularx}\caption{Potions.}\end{table}
+\subsubsection*{Quest treasures}
+Some adventures hide unique items that their owner keeps from one adventure to the next:
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule\textbf{Item} & \textbf{Effect}\\\midrule
+Borin's Armour & Four defence dice, without plate armour's slowness\\
+Wand of Recall & Allows two spells in the same turn\\
+Talisman of Lore & Increases its wearer's mind points by two\\
+Orc's Bane & Two-dice sword that strikes twice when fighting an orc\\
+Spirit Blade & Three attack dice, four against undead. The only weapon that can wound the Witch Lord\\\bottomrule
+\end{tabularx}\caption{Quest treasures.}\end{table}
+\subsection{Death}
+A hero whose body points reach zero dies and is removed from play. Everything carried, gold and weapons, is lost. Unique items return to their original locations, so the survivors must replay the relevant adventure to recover them.
+
+On the \pant{CREATE HERO} screen, the fallen hero appears as \pant{DEAD}. Create a new character there to take their place, but they must start from scratch.
+\subsection{Between adventures}
+Complete an adventure by meeting Mentor's briefing objective and leaving the dungeon alive. If you fail, you may try again: Morcar always starts with all his monsters.
+
+Surviving heroes keep their gold, equipment and quest treasures. They also keep their wounds: lost body points do not return automatically and must be restored with healing potions or spells. Visit the shop before choosing the next adventure, and record each hero's code (page~\pageref{sec:codigos}) if you intend to switch off.

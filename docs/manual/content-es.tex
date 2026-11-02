@@ -1,0 +1,1419 @@
+% Complete Spanish content, retained from the previous edition.
+\chapter{Qué necesitas}
+
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule
+\textbf{Elemento} & \textbf{Requisito}\\
+\midrule
+Ordenador & MSX2, MSX2+ o MSX turbo R\\
+Memoria & 64 KB de RAM y 128 KB de VRAM\\
+Vídeo & Vídeo propio del MSX2; SCREEN~5, 50 o 60~Hz.
+No necesita una tarjeta de vídeo adicional\\
+Sonido & PSG interno; opcionalmente OPL4 (MoonSound o compatible)\\
+Juego & Cartucho MegaROM de 2 MiB, tipo ASCII16\\
+Conexión & Una ranura libre para el juego; otra si se utiliza MoonSound\\
+Pantalla & Monitor o televisor conectado a la salida de vídeo del MSX\\
+Control & Teclado; opcionalmente joystick MSX en puerto 1 o ratón MSX
+en puerto 1 o 2\\
+\bottomrule
+\end{tabularx}
+\caption{Equipo necesario.}
+\end{table}
+
+No necesitas cinta ni disco. Para conservar a los héroes entre sesiones,
+apunta sus códigos de guardado (sección~\ref{sec:codigos}).
+
+\chapter{Puesta en marcha}
+
+
+\begin{enumerate}
+\item Comprueba que el ordenador está \textbf{apagado}.
+\item Inserta el cartucho del juego en una ranura libre y presiónalo
+      hasta que quede firme. Si utilizas MoonSound, insértalo en otra
+      ranura libre, también con el ordenador apagado.
+\item Si vas a usar ratón o joystick, conéctalo ahora (véase el capítulo
+      \ref{cap:controles}).
+\item Conecta la pantalla a la salida de vídeo del MSX.
+\item Enciende el ordenador. El juego arranca solo.
+\end{enumerate}
+
+\aviso{¡Atención! Cuidado con el cartucho}{Inserta y extrae el cartucho
+\textbf{siempre con el ordenador apagado}. No lo introduzcas ni lo retires
+nunca con el ordenador encendido: podrías dañar tanto el cartucho como el
+propio ordenador, y además perderías la partida en curso.}
+
+\chapter{Del encendido al juego}
+
+
+Al encender el ordenador se suceden, por este orden:
+
+\begin{enumerate}
+\item \textbf{El logotipo de DiHalt y su fanfarria musical}. Esta secuencia dura
+      unos 9,4 segundos con el PSG interno, incluida la pausa final, o
+      10 segundos con MoonSound. Avanza automáticamente y no se puede saltar.
+\item \textbf{La ilustración de apertura}. Pulsa \textbf{ESPACIO} o el botón del
+      joystick, o haz clic con el botón izquierdo del ratón, para continuar.
+\item \textbf{La selección de idioma}. Elige ENGLISH o ESPAÑOL con arriba/abajo y confirma con \textbf{ESPACIO}, \textbf{RETURN} o disparo. Español aparece seleccionado por defecto. La intro y el juego utilizarán ese idioma hasta reiniciar. Los códigos de héroe sirven en ambos idiomas.
+\item \textbf{La introducción animada}, en la que Mentor cuenta la historia
+      de Morcar. Puedes saltarla con
+      \textbf{ESPACIO}, \textbf{ESC} o con el botón derecho del ratón.
+\item \textbf{El menú principal}.
+\end{enumerate}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.8\linewidth,height=0.6\linewidth]{opening16}
+\caption{La ilustración de apertura tal como la muestra el MSX2, con sus
+dieciséis colores.}
+\end{figure}
+
+\pantalla[0.62]{language_selector}{Selecciona el idioma antes de comenzar la introducción.}
+\subsection{Idioma}
+El cartucho contiene ambos idiomas. La elección se aplica a toda la introducción, los menús, los mensajes y las veinticuatro aventuras. Para elegir de nuevo, reinicia el juego; la selección de idioma no se guarda. Anota los códigos de tus héroes antes de reiniciar si quieres conservarlos. Los códigos de héroe son compatibles entre ambos idiomas y las reglas no cambian.
+
+\subsection{Lo que no se conserva al apagar}
+
+
+El cartucho no graba datos: al apagar el ordenador se pierde la partida.
+Para no perder a tus héroes, el juego te da de cada uno un \textbf{código de
+16 letras} que guarda su nombre, su oro, sus puntos de cuerpo, sus armas, su
+armadura y los tesoros de aventura que ha encontrado. Apúntalo antes de
+apagar y tecléalo otro día para recuperar al héroe tal como estaba (se
+explica en la página~\pageref{sec:codigos}).
+
+% ================================================================
+\chapter{Controles}
+\label{cap:controles}
+
+Todo el juego se maneja con un \textbf{puntero} en forma de flecha y un
+único \textbf{botón de acción}. Puedes moverlo con cualquiera de estos
+dispositivos, sin necesidad de configurar nada:
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lLL@{}}
+\toprule
+\textbf{Dispositivo} & \textbf{Mover el puntero} & \textbf{Acción}\\
+\midrule
+Ratón MSX (puerto 1 o 2) & Desplazar el ratón & Botón izquierdo\\
+Teclado & Teclas del cursor & ESPACIO\\
+Joystick (puerto 1) & Palanca & Botón de disparo\\
+\bottomrule
+\end{tabularx}
+\caption{Dispositivos de control.}
+\end{table}
+
+\subsection{Ratón}
+
+El juego detecta por sí solo si hay un ratón MSX conectado, en el puerto 1
+o en el 2, y lo utiliza junto con el teclado. El botón izquierdo equivale a
+la acción; el botón derecho sólo sirve para saltar la introducción. Con el
+ratón el juego resulta mucho más ágil: basta señalar un icono, una casilla
+o una opción y pulsar.
+
+\subsection{Teclado y joystick}
+
+Sin ratón se juega exactamente igual: las teclas del cursor (o la palanca
+del joystick conectado al puerto 1) desplazan el puntero por la pantalla, y
+ESPACIO (o el disparo) pulsa sobre lo que señala.
+
+\subsection{En los menús}
+
+En los menús hay siempre una línea resaltada. Con el teclado o el joystick,
+las teclas \textbf{arriba} y \textbf{abajo} cambian la línea resaltada y
+ESPACIO la elige. Sin ratón, la flecha se oculta en los menús; durante la partida vuelve a
+aparecer para manejar los iconos. Con el ratón basta llevar el puntero sobre la opción
+deseada ---el resalte lo sigue--- y pulsar el botón izquierdo; una
+pulsación fuera de las opciones no hace nada.
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule
+\textbf{Tecla} & \textbf{Función}\\
+\midrule
+Cursores & Mover el puntero o la línea resaltada\\
+ESPACIO & Acción: elegir, pulsar un icono, detener el número de movimiento
+          o saltar la introducción\\
+ESC & Saltar la introducción\\
+\bottomrule
+\end{tabularx}
+\caption{Resumen de teclas.}
+\end{table}
+
+% ================================================================
+\chapter{Introducción}
+
+
+\textit{HeroQuest} es un juego de aventuras y fantasía por turnos, basado en
+el célebre juego de tablero. Hasta cuatro héroes ---un bárbaro, un enano, un
+duende y un hechicero--- se adentran en mazmorras repletas de monstruos,
+trampas y tesoros para cumplir las misiones que les encomienda Mentor, el
+guardián del libro Loretome. Enfrente tienen a Morcar, el Señor del Caos, a
+quien da vida el ordenador: él mueve a los monstruos y decide sus ataques,
+de modo que todos los jugadores pueden colaborar en el mismo bando.
+
+Esta versión para MSX2 reúne en un solo cartucho las catorce aventuras del
+juego original de Gremlin Graphics y las diez de su expansión, \textit{El
+retorno del Señor Brujo}: veinticuatro aventuras en total, con una introducción animada, control por ratón, teclado o
+joystick y música digital si el ordenador dispone de un cartucho OPL4.
+
+Este manual corresponde a la versión \versionjuego{}, cuyo número aparece
+en el menú principal, debajo de los créditos de DiHalt.
+
+Pueden jugar de una a cuatro personas. Con cuatro jugadores cada uno lleva
+un héroe; con menos, cada jugador puede dirigir varios, y un jugador
+solitario puede aventurarse con un único personaje o con el grupo completo.
+
+Conviene leer este manual antes de empezar: las reglas son sencillas, pero
+la mazmorra no perdona a quien entra en ella sin conocerlas.
+
+\pantalla[0.8]{sala_monstruos}{El bárbaro entra en una sala ocupada por los
+siervos de Morcar.}
+
+\subsection{Las crónicas de Loretome}
+
+<<Escuchad con atención las palabras de Mentor, guardián de Loretome, pues
+voy a hablaros de tiempos pasados, de días oscuros en los que el Imperio se
+salvó contra toda esperanza. Temo que la oscuridad esté a punto de
+regresar.>>
+
+Las legiones de Morcar, Señor del Caos, lo habían arrasado todo a su paso.
+Ante el Estandarte Negro y las hordas del Caos, hasta los guerreros más
+valientes del Emperador dieron media vuelta y huyeron. La tierra quedó
+devastada y los hombres perdieron la esperanza.
+
+Entonces llegó de las Tierras Fronterizas un poderoso príncipe guerrero:
+Rogar el Bárbaro. Lucía en la frente un diamante resplandeciente, la
+Estrella del Oeste, la misma joya que portaron los antiguos reyes de la
+leyenda. Con él volvió la esperanza, y los hombres abandonaron sus
+escondites en colinas y bosques para unirse a su estandarte. Otros grandes
+héroes se le sumaron: Durgin, el intrépido guerrero enano de las Montañas
+del Fin del Mundo; Ladril, el guerrero mago de los elfos, llegado de la
+lejana Athelorn; y Telor, el hechicero cuya magia salvaría a Rogar en más de
+una ocasión.
+
+Durante años Rogar adiestró a su ejército. Evitó la batalla campal contra
+el general de Morcar hasta que todo estuvo dispuesto, pero no dejó de
+hostigar sus líneas de suministro ni de acabar con orcos y goblins. Y llegó
+el día esperado. Acampado en los pasos altos, Ladril divisó a lo lejos las
+huestes negras y pidió a Durgin que tocara la llamada a las armas con su
+poderoso cuerno. Los ejércitos de Rogar cayeron sobre el enemigo por dos
+flancos. Muchas criaturas inmundas y muchos hombres buenos perecieron
+aquella jornada; pero, al apagarse la luz del día, fue la Oscuridad la que
+abandonó el campo.
+
+La victoria, sin embargo, no fue completa. Morcar y su general escaparon
+más allá del Mar de las Garras, y todavía hoy traman su venganza. Pronto
+sus planes estarán maduros y el Imperio necesitará un nuevo Rogar. ¿Dónde
+están los héroes capaces de igualarlo? Mucho tenéis que aprender para
+llegar a ser tan grandes como él y sus compañeros.
+
+Mentor os ayudará en lo que pueda. El libro que lleva consigo, Loretome,
+fue escrito cuando comenzó el tiempo, y en sus páginas incontables está
+registrado todo lo que fue y todo lo que será. A través de él puede
+guiaros; pero no le está permitido intervenir, pues entonces un mal mayor
+caería sobre el mundo y el Caos triunfaría para siempre.
+
+% ================================================================
+\chapter{Sonido}
+
+
+
+El juego reconoce automáticamente el equipo de sonido disponible; no hay
+nada que configurar. Al arrancar, el logotipo de DiHalt tiene su propia
+fanfarria musical, que suena por MoonSound si está presente o por el PSG
+interno en caso contrario. Después del logotipo, la introducción, los menús
+y las aventuras utilizan la música que se describe a continuación.
+
+\subsection{Con el sonido interno}
+
+Con el sonido interno del MSX suenan la música
+del juego original ---una melodía para los menús y la introducción y otra
+para las aventuras--- y sus efectos: los pasos, las puertas, los golpes y
+las heridas. La música y los efectos no suenan a la vez: mientras la música está activada no se oyen los efectos, y al
+desactivarla (véase más abajo) el juego pasa a reproducirlos.
+
+\subsection{Con un cartucho OPL4 (MoonSound)}
+
+Si al arrancar el juego encuentra un OPL4, la música pasa a sonar por él:
+es música digital, tomada de los módulos de la versión de Amiga, con una
+melodía para la introducción y los menús y otra distinta durante las
+aventuras. También se escuchan los efectos de sonido del juego, de modo que música
+y efectos suenan a la vez.
+
+\subsection{Activar y desactivar la música}
+
+En la pantalla de opciones (opción \pant{Opciones} del menú principal),
+la opción \pant{Música} la activa o la desactiva. Sin OPL4, desactivarla
+es la manera de jugar con efectos de sonido.
+
+% ================================================================
+\chapter{La introducción}
+\label{cap:intro}
+
+Tras la ilustración de apertura y la selección de idioma comienza la introducción animada, con los textos en el idioma elegido. Cae la
+tarde sobre la ciudad y, en su estudio, a la luz de un fuego que calienta
+pero apenas alumbra, Mentor reúne a sus discípulos. Entre sombras que dejan
+adivinar estanterías repletas de libros y pergaminos, el viejo mago se
+acerca a la chimenea y les habla.
+
+\dospantallas{intro_titulo}{intro_ciudad}{El título y la primera escena de
+la introducción.}
+
+Su entrenamiento ha terminado, les dice, pero todavía no son héroes: antes
+han de ponerse a prueba. Y para que sepan a qué se enfrentan les cuenta la
+historia de Morcar.
+
+Hace muchos siglos Morcar fue su aprendiz. Trabajaba duro y aprendía
+deprisa, pero la impaciencia lo devoraba: quería conocer magias cada vez
+más poderosas. Mentor le advirtió de los peligros y le pidió paciencia,
+pues con el tiempo llegaría a ser un gran mago. Morcar no quiso esperar.
+Noche tras noche entró a escondidas en el estudio de su maestro para leer
+sus libros de hechizos y, cuando hubo aprendido los grandes secretos que
+guardaban, huyó.
+
+\dospantallas{intro_mentor}{intro_texto}{Mentor relata la traición de su
+aprendiz; los textos de la introducción están en castellano.}
+
+Cuando Mentor dio con él lo encontró muy cambiado: había jurado lealtad a
+los grandes poderes del Caos. Intentó hacerle entrar en razón, pero Morcar
+se rió en su cara y desató contra él un hechizo terrible. Lucharon durante
+días. Morcar contaba con aliados más fuertes que el propio Mentor, que no
+pudo derrotarlo; y cuando ambos estaban ya exhaustos, el traidor escapó y
+buscó refugio en los yermos del Caos, al norte.
+
+Allí curó sus heridas, perfeccionó sus artes y conjuró poderes antiguos con
+los que derrocar al Imperio; poderes que le servirán mientras convenga a
+sus oscuros propósitos, y que acabarán por destruirlo. Desde entonces
+Mentor vigila a Morcar y mide la fuerza de su magia, porque lo que ha
+convocado acabaría con todos si esa vigilancia se relajara. Sus legiones ya
+amenazaron al Imperio una vez, y fue Rogar quien las derrotó. Ahora están
+de nuevo en marcha y han atacado las fronteras.
+
+\dospantallas{intro_estudio}{intro_sala}{Otras dos escenas de la
+introducción.}
+
+El Imperio vuelve a necesitar héroes, y para eso han sido entrenados. Cada
+uno deberá superar tres pruebas; quien lo consiga será aclamado campeón del
+reino y nombrado caballero imperial, y estará de verdad en el camino de los
+héroes. <<Hablaré con vosotros otra vez cuando volváis\ldots{} si volvéis.>>
+
+La introducción se muestra una sola vez, al encender el ordenador. Puedes
+saltarla en cualquier momento con \textbf{ESPACIO}, \textbf{ESC} o con el
+botón derecho del ratón.
+
+% ================================================================
+\chapter{Los menús}
+\label{cap:menus}
+
+\subsection{El menú principal}
+
+\pantalla[0.62]{menu_principal}{El menú principal de la versión \versionjuego.}
+
+El menú principal ofrece cuatro opciones:
+
+\begin{description}
+\item[\pant{Jugar}] Comienza una aventura. Debería ser lo último que elijas,
+  una vez preparados los personajes.
+\item[\pant{Comprar equipo}] Lleva a la tienda, donde los héroes gastan su
+  oro en armas y armaduras.
+\item[\pant{Crear personaje}] Permite decidir qué héroes participan y darles
+  nombre.
+\item[\pant{Opciones}] Ajustes de música y tipo de letra.
+\end{description}
+
+\subsection{Crear personaje}
+
+\pantalla[0.62]{crear_personaje}{La pantalla de personajes: a la izquierda
+la clase de cada héroe y a la derecha su nombre.}
+
+La pantalla \pant{Elige jugador} muestra a los cuatro héroes. A la derecha
+de cada uno aparece su nombre ---de fábrica, Sigmar el bárbaro, Grugni el
+enano, Ladril el duende y Zoltan el hechicero--- o bien la palabra
+\pant{Muerto}. Un personaje muerto no toma parte en la siguiente aventura.
+
+\begin{itemize}
+\item Con \textbf{arriba} y \textbf{abajo} (o señalando con el ratón) se
+  resalta un héroe.
+\item Con \textbf{derecha} se alterna entre el nombre y \pant{Muerto}. Así
+  se retira del grupo a un héroe que no vaya a jugar, y así se crea un
+  personaje nuevo en el lugar de uno caído: el nuevo empieza con sus puntos
+  al completo, pero sin oro ni equipo.
+\item Pulsando la acción sobre un héroe activo se abre su menú, con las
+  opciones \pant{Nombre jugador}, \pant{Cargar} y \pant{Guardar}.
+\item \pant{Volver} devuelve al menú principal.
+\end{itemize}
+
+\textbf{Nombre jugador} muestra un abecedario en la parte inferior de la
+pantalla: elige las letras una a una, hasta un máximo de seis, y termina con
+la opción de fin.
+
+\pant{Cargar} y \pant{Guardar} servían en el juego original para llevar los
+personajes a una cinta. En el cartucho trabajan con \textbf{códigos}, como
+se explica a continuación.
+
+Si todos los héroes han muerto, el juego lo advierte y pide crear
+personajes nuevos antes de volver a jugar.
+
+\subsection{Los códigos de héroe}\label{sec:codigos}
+
+El cartucho no puede grabar, así que cada héroe se conserva con un código
+de 16 letras: 14 de datos y dos de comprobación. Los códigos antiguos de
+14 letras ya no se aceptan. El código contiene:
+
+\begin{itemize}
+\item el nombre del héroe (sus seis letras);
+\item su oro;
+\item sus puntos de cuerpo en ese momento;
+\item las armas y la armadura que ha comprado, y la caja de herramientas;
+\item los tesoros de aventura que ha encontrado.
+\end{itemize}
+
+No guarda las pociones ni los hechizos, que se pierden al terminar cada
+aventura, ni qué arma llevaba en la mano: al recuperar al héroe hay que
+volver a elegirla en el inventario.
+
+\dospantallas{codigo_guardar}{codigo_cargar}{A la izquierda, \pant{Guardar}
+muestra el código del héroe. A la derecha, \pant{Cargar} lo pide letra a
+letra.}
+
+\subsubsection*{Guardar: ver el código}
+
+En \pant{Crear personaje}, elige al héroe, pulsa la acción y escoge
+\pant{Guardar}. La pantalla muestra su código en tres grupos de letras,
+por ejemplo \texttt{QGYNT ZDWQL PYZGTI}. Apúntalo tal cual y pulsa la acción
+para volver. Conviene hacerlo con los cuatro héroes al terminar una aventura
+y después de pasar por la tienda: el código refleja al héroe en el momento
+en que se pide.
+
+\subsubsection*{Cargar: teclear el código}
+
+Elige al héroe del mismo tipo (un código de bárbaro solo sirve para el
+bárbaro), pulsa la acción y escoge \pant{Cargar}. Las letras se pueden
+introducir de tres maneras:
+
+\begin{itemize}
+\item tecleándolas directamente en el teclado;
+\item señalando cada letra del abecedario con el ratón y pulsando el botón;
+\item moviendo el cursor del abecedario con \textbf{izquierda} y
+  \textbf{derecha} y pulsando la acción.
+\end{itemize}
+
+La opción \pant{Fin} borra la última letra; con la línea vacía, devuelve a
+la pantalla de personajes sin cambiar nada. Al completar la letra número 16
+el héroe aparece con su nombre, su oro y su equipo. Si alguna letra está
+mal, el juego avisa con \pant{Código incorrecto} y deja volver a
+escribirlo: es casi imposible que un código mal copiado sea aceptado.
+
+\aviso{Atención}{Cargar un código sustituye al héroe que hubiera en ese
+puesto. Si quieres conservarlo, apunta antes su código.}
+
+\subsection{Comprar equipo}
+
+\pantalla[0.7]{tienda}{La tienda. Arriba, los compradores; abajo, las armas
+y armaduras con su valor.}
+
+A lo largo de las aventuras los héroes encuentran oro y cobran recompensas.
+En la tienda pueden gastarlo en equipo mejor, cuyas ventajas se aplican
+automáticamente.
+
+\begin{enumerate}
+\item Elige en la lista superior al héroe que va a comprar. Su oro aparece
+  en pantalla.
+\item Pulsa sobre el artículo deseado. Si el héroe tiene oro suficiente, y
+  su clase puede usarlo, el artículo pasa a ser suyo.
+\item \pant{Volver}, en la lista de artículos, cierra la compra de ese héroe;
+  \pant{Volver}, en la lista de héroes, devuelve al menú principal.
+\end{enumerate}
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lrL@{}}
+\toprule
+\textbf{Arma} & \textbf{Valor} & \textbf{Efecto}\\
+\midrule
+\pant{Bastón}     & 100 & 2 dados de ataque. Ataca también en diagonal.\\
+\pant{Daga}       & 150 & 2 dados de ataque. Ataca también en diagonal.\\
+\pant{Espada}     & 250 & 3 dados de ataque.\\
+\pant{Gran hacha} & 400 & 4 dados de ataque. Impide usar el escudo.\\
+\pant{Ballesta}   & 350 & 3 dados de ataque a distancia. No puede usarse
+                          contra un enemigo adyacente.\\
+\pant{Hacha}      & 150 & 2 dados de ataque. Se puede arrojar, pero
+                          entonces se pierde.\\
+\pant{Lanza}      & 150 & 2 dados de ataque. Ataca en diagonal. Se puede
+                          arrojar, pero entonces se pierde.\\
+\bottomrule
+\end{tabularx}
+\caption{Armas a la venta.}
+\end{table}
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lrL@{}}
+\toprule
+\textbf{Armadura} & \textbf{Valor} & \textbf{Efecto}\\
+\midrule
+\pant{Escudo}   & 100 & Un dado más de defensa.\\
+\pant{Casco}    & 120 & Un dado más de defensa.\\
+\pant{Malla}    & 450 & Cota de malla: 3 dados de defensa.\\
+\pant{Armadura} & 850 & Armadura de placas: 4 dados de defensa, pero su
+                        peso reduce el movimiento a un solo dado.\\
+\pant{Caja}     & 250 & Caja de herramientas: permite desactivar las
+                        trampas descubiertas. El enano ya tiene una.\\
+\bottomrule
+\end{tabularx}
+\caption{Armaduras y equipo a la venta.}
+\end{table}
+
+El \textbf{hechicero} sólo puede comprar el bastón y la caja de
+herramientas: ni las demás armas ni las armaduras son para él.
+
+\subsection{Opciones}
+
+\pantalla[0.62]{controles}{La pantalla de opciones.}
+
+Se maneja como el menú principal: \textbf{arriba} y \textbf{abajo} mueven
+la barra y la acción elige, o se señala la opción con el ratón y se pulsa
+el botón.
+
+\begin{description}
+\item[\pant{Música}] Activa o desactiva la música (\pant{Sí} o
+  \pant{No}).
+\item[\pant{Letra}] Cambia el tipo de letra de todo el juego entre la
+  gótica, que es la de fábrica, y otra normal, más fácil de leer.
+\item[\pant{Volver}] Vuelve al menú principal.
+\end{description}
+
+\subsection{Jugar: hechizos y elección de aventura}
+
+Al elegir \pant{Jugar}, y antes de escoger la aventura, los personajes que
+usan magia se reparten los hechizos. Hay cuatro grupos ---\pant{Aire},
+\pant{Fuego}, \pant{Tierra} y \pant{Agua}---, cada uno con tres hechizos.
+
+\pantalla[0.7]{hechizos}{Elección de los grupos de hechizos.}
+
+El aviso superior indica quién debe elegir: \pant{Hechicero selecciona
+hechizos} o \pant{Duende selecciona hechizos}.
+
+El hechicero elige primero un grupo; a continuación el duende elige el
+suyo, y los dos grupos restantes quedan para el hechicero. Si sólo juega
+uno de los dos, elige él solo: el duende un grupo, el hechicero tres.
+
+Después aparece la lista de aventuras, que tiene dos páginas:
+
+\dospantallas{aventuras1}{aventuras2}{Las dos páginas de la lista de
+aventuras: el juego original y \textit{El retorno del Señor Brujo}.}
+
+\begin{itemize}
+\item La primera contiene las \textbf{catorce aventuras del juego
+  original}. Su última línea, \pant{Más}, pasa a la segunda página.
+\item La segunda contiene las \textbf{diez aventuras de la expansión}. Su
+  última línea, \pant{Volver}, regresa a la primera.
+\end{itemize}
+
+Con el ratón, la misión que señalas queda resaltada directamente.
+
+Al elegir una aventura aparecen las palabras con que Mentor la presenta.
+Léelas con atención, porque explican qué hay que conseguir, y pulsa la
+acción para entrar en la mazmorra. Lo mejor es jugar las aventuras en
+orden: cada una es algo más difícil que la anterior y la historia avanza
+de una a otra.
+
+\pantalla[0.7]{pergamino1}{Mentor presenta la primera aventura.}
+
+% ================================================================
+\chapter{Cómo se juega}
+
+
+\subsection{La pantalla de juego}
+
+La mazmorra se ve sala a sala, en perspectiva isométrica, dentro de un
+marco con los datos del héroe que tiene el turno y los iconos de las
+acciones.
+
+Arriba a la izquierda, el corazón rojo indica los puntos de cuerpo; la
+bolsa dorada, el oro, y la huella cian, los movimientos disponibles. Los
+avisos y las opciones de búsqueda se muestran sobre pergaminos con bordes
+y texturas que varían según el color de fondo de la sala.
+
+\pantalla[0.80]{pantalla_juego}{La pantalla de juego.}
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}rL@{}}
+\toprule
+1 & Nombre del héroe que tiene el turno.\\
+2 & Corazón rojo: puntos de cuerpo. Si llegan a cero, el héroe muere.\\
+3 & Puntos de mente.\\
+4 & Bolsa dorada: oro que lleva el héroe.\\
+5 & Huella cian: movimientos que le quedan en este turno.\\
+6 & Vista de la sala o del pasillo. Pulsando sobre una casilla, el héroe
+    camina hasta ella.\\
+7 & Siguiente jugador: termina el turno.\\
+8 & Llave: abre la puerta que el héroe tiene delante.\\
+9 & Flechas de dirección: mueven al héroe una casilla.\\
+10 & Ojo: buscar (trampas y puertas secretas, o tesoros).\\
+11 & Bolsa: inventario del héroe (pociones, armas, armadura, hechizos y
+     tesoros de aventura).\\
+12 & Espada: atacar.\\
+13 & Pergamino: mapa de la mazmorra.\\
+\bottomrule
+\end{tabularx}
+\caption{Elementos de la pantalla de juego.}
+\end{table}
+
+\subsection{El turno}
+
+Los héroes juegan por orden, uno tras otro; el nombre del que tiene el
+turno aparece arriba a la izquierda. Cuando todos han jugado le toca a
+Morcar, y después se vuelve a empezar.
+
+En su turno, cada héroe puede hacer dos cosas: \textbf{moverse} y realizar
+\textbf{una acción} (atacar, lanzar un hechizo o buscar). Puede moverse
+primero y actuar después, o actuar primero y moverse después; lo que no
+puede es moverse, actuar y seguir moviéndose. Nadie está obligado a actuar
+ni a agotar su movimiento. Cuando hayas terminado, pulsa el icono de
+siguiente jugador.
+
+\subsection{El movimiento}
+
+Al comenzar el turno, el número de movimientos gira sin parar: hace las
+veces de los dados del juego de tablero. \textbf{Pulsa la acción para
+detenerlo}; la cifra que quede es el número de casillas que el héroe puede
+recorrer en ese turno. El juego ya tiene en cuenta todo lo que afecta a la
+tirada: los héroes tiran normalmente dos dados, y sólo uno si visten
+armadura de placas o cargan con algo muy pesado.
+
+Hay dos maneras de mover al héroe:
+
+\begin{itemize}
+\item con las \textbf{flechas de dirección}, casilla a casilla;
+\item pulsando en la vista sobre la \textbf{casilla de destino}: si está en
+  línea recta y quedan movimientos suficientes, el héroe camina hasta ella.
+\end{itemize}
+
+Reglas del movimiento:
+
+\begin{itemize}
+\item No se puede mover en diagonal.
+\item No se puede terminar en una casilla ocupada por un monstruo o un
+  mueble, ni atravesar muros o escombros (\pant{Bloqueada}).
+\item Dos héroes pueden coincidir en una casilla, pero ninguno de los dos
+  puede atacar desde ella.
+\item Los monstruos tienen un movimiento fijo, sin tirada.
+\end{itemize}
+
+\subsubsection*{Puertas}
+
+Héroes y monstruos sólo pueden entrar y salir de las salas por las puertas
+abiertas. Los monstruos no saben abrirlas; los héroes sí, de dos formas:
+colocándose ante la puerta y pulsando el icono de la \textbf{llave}, o
+simplemente caminando a través de ella, pues el juego la abre solo. Abrir
+una puerta no gasta movimiento, y la puerta queda abierta para el resto de
+la aventura. En un mismo turno no se puede volver a cruzar la puerta por la
+que se acaba de pasar.
+
+\subsubsection*{La salida}
+
+En casi todas las aventuras los héroes empiezan junto a una escalera de
+caracol, que es también la \pant{Salida}. Un héroe que pisa la escalera
+abandona la mazmorra. La aventura termina cuando ningún héroe queda dentro.
+
+\pantalla[0.78]{sala_inicio}{Los cuatro héroes junto a la escalera, al
+comienzo de una aventura.}
+
+\subsection{Buscar}
+
+En lugar de atacar o lanzar un hechizo, el héroe puede buscar, antes o
+después de moverse. Al pulsar el ojo, el juego pregunta qué se busca:
+
+\pantalla[0.78]{buscar}{El menú de búsqueda: trampas y puertas secretas, o
+tesoros.}
+
+\begin{description}
+\item[\pant{Revisas trampas, puertas}] Examina la sala o el tramo de pasillo
+  en que está el héroe. Las puertas secretas halladas quedan visibles y
+  abiertas para el resto de la aventura, y las trampas quedan al
+  descubierto.
+\item[\pant{Buscas tesoros}] Registra la sala. Puede aparecer oro, una
+  poción, el tesoro especial de la aventura\ldots{} o algo peor.
+\end{description}
+
+No se puede buscar tesoros mientras haya monstruos en la misma sala.
+Los monstruos nunca buscan.
+
+\subsubsection*{Tesoros}
+
+En algunas salas se esconde un tesoro concreto, del que suele hablar la
+presentación de la aventura. En las demás, la búsqueda es cuestión de
+suerte: lo más habitual es encontrar unas monedas (de 10 a 100), y a veces
+una poción; pero también puede no haber nada, saltar una trampa que cuesta
+un punto de cuerpo, o aparecer un \textbf{monstruo errante} que ha seguido
+al héroe y lo ataca en el acto. Cada sala sólo puede registrarse una vez.
+
+Algunos cofres están protegidos por una trampa. Si antes de buscar tesoros
+se revisa la sala en busca de trampas, la del cofre queda desactivada.
+
+\subsubsection*{Trampas}
+
+Las trampas no se ven hasta que un héroe las descubre buscando o cae en
+ellas. Los monstruos no las activan.
+
+\begin{description}
+\item[Foso] Quien cae en él pierde un punto de cuerpo. El foso queda a la
+  vista como obstáculo (\pant{Trampa}); se puede intentar saltar, con el
+  riesgo de tropezar, caer y perder otro punto.
+\item[Desprendimiento] Al pasar, el techo se viene abajo: el héroe puede
+  resultar herido y una roca bloquea el paso para siempre. Cuidado: puede
+  cortar el camino de vuelta.
+\item[Lanza] Una lanza sale disparada del muro contra el primer héroe que
+  pisa la casilla. Puede herirlo o fallar; en cualquier caso sólo se
+  dispara una vez. Si se descubre al buscar, queda inutilizada.
+\end{description}
+
+Quien activa una trampa no puede hacer nada más hasta su turno siguiente.
+
+El \textbf{enano} lleva siempre su caja de herramientas, y con ella puede
+desactivar una trampa descubierta que tenga junto a él: abre el inventario
+y pulsa sobre la caja. Los demás héroes pueden hacer lo mismo si compran
+una caja en la tienda. Desactivar una trampa tiene su riesgo: si sale mal,
+la trampa salta y cuesta un punto de cuerpo.
+
+\subsection{El combate}
+
+Para atacar a un monstruo hay que estar \textbf{junto a él}: delante,
+detrás o a un lado. No se puede atacar en diagonal, salvo con las armas que
+lo permiten (bastón, daga y lanza). Con la ballesta, o arrojando el hacha o
+la lanza, se puede atacar a distancia a cualquier enemigo que esté a la
+vista y no sea adyacente.
+
+Para atacar:
+
+\begin{enumerate}
+\item Pulsa el icono de la \textbf{espada}. La pantalla cambia al mapa.
+\item Pulsa sobre el enemigo elegido. (En la parte inferior, \pant{Arma}
+  abre el inventario para cambiar de arma y \pant{Cancelar} vuelve a la
+  sala sin atacar.)
+\item Aparece la pantalla de combate, con el resultado.
+\end{enumerate}
+
+\dospantallas{mapa_ataque}{combate_victoria}{Elección del enemigo sobre el
+mapa y resultado de un ataque afortunado.}
+
+El ordenador tira los dados por los dos bandos. Son dados especiales de
+combate, de seis caras: tres tienen una \textbf{calavera}, dos un
+\textbf{escudo de héroe} y una un \textbf{escudo de monstruo}.
+
+\begin{itemize}
+\item El atacante tira tantos dados como indique su ataque. Cada calavera
+  es un impacto.
+\item El defensor tira sus dados de defensa. Cada escudo \emph{de su bando}
+  anula un impacto: los héroes se defienden con dos caras de cada dado; los
+  monstruos, sólo con una.
+\item Cada impacto no anulado resta un punto de cuerpo.
+\end{itemize}
+
+La gran mayoría de los monstruos tiene un solo punto de cuerpo, así que
+caen con el primer impacto que no detengan. Un héroe muere cuando sus
+puntos de cuerpo llegan a cero.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Héroe} & \textbf{Dados de ataque} & \textbf{Dados de defensa}\\
+\midrule
+Bárbaro   & 3 & 2\\
+Enano     & 2 & 2\\
+Duende    & 2 & 2\\
+Hechicero & 1 & 2\\
+\bottomrule
+\end{tabular}
+\caption{Dados de combate de los héroes sin equipo adicional.}
+\end{table}
+
+Las armas y armaduras cambian estas cifras, como se indica en las tablas de
+la tienda. Si un héroe ha derrotado a su adversario antes de moverse,
+todavía puede hacerlo. Asegúrate de estar bien colocado antes de pulsar la
+espada: si el enemigo elegido queda fuera de alcance, el juego avisa de que
+estás demasiado lejos y la acción del turno se pierde.
+
+\dospantallas{combate_bloqueado}{combate_herido}{El turno de Morcar: un
+ataque enemigo detenido y otro que hiere al bárbaro.}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.32\linewidth]{lamina_0}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_1}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_4}\\[2pt]
+\includegraphics[width=0.32\linewidth]{lamina_2}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_3}\hfill
+\includegraphics[width=0.32\linewidth]{lamina_8}
+\caption{Algunas de las ilustraciones que acompañan a los combates.}
+\end{figure}
+
+\subsection{El turno de Morcar}
+
+Cuando todos los héroes han jugado, el mapa ocupa la pantalla con el aviso
+\pant{Es el turno de Morcar}. El ordenador mueve entonces, uno a uno, a los
+monstruos que los héroes han descubierto, y los que alcanzan a un héroe lo
+atacan. Cada ataque se resuelve en la pantalla de combate, igual que los de
+los héroes. Al terminar, el juego lo anuncia y devuelve el turno al primer
+héroe.
+
+\pantalla[0.78]{turno_morcar}{El turno de Morcar se sigue sobre el mapa.}
+
+\subsection{El mapa}
+
+El icono del pergamino muestra el mapa de la mazmorra: sólo aparecen las
+salas y pasillos que los héroes han explorado, con sus puertas, muebles,
+trampas descubiertas y escaleras, además de la posición de cada héroe y de
+los monstruos a la vista. Consultarlo no gasta el turno. Pulsa la acción
+para volver a la sala.
+
+El mismo mapa sirve para elegir el blanco de un ataque o de un hechizo.
+
+\subsection{La magia}
+
+Sólo el hechicero y el duende saben usar la magia. Cada hechizo puede
+lanzarse \textbf{una sola vez} por aventura. Lanzar un hechizo sustituye al
+ataque del turno y, como éste, puede hacerse antes o después de moverse.
+
+Para lanzar un hechizo:
+
+\begin{enumerate}
+\item Abre el inventario (icono de la bolsa).
+\item Pulsa sobre el hechizo en la lista \pant{Hechizos} y después sobre
+  \pant{Salida}.
+\item En el mapa, pulsa sobre el personaje o monstruo al que va dirigido.
+  Un mensaje indica el resultado.
+\end{enumerate}
+
+\pantalla[0.7]{hoja_hechicero}{El inventario del hechicero, con sus nueve
+hechizos.}
+
+El blanco debe estar a la vista: lo están siempre quienes comparten sala
+con el lanzador; en los pasillos, o entre salas distintas, hace falta una
+línea recta sin muros, puertas cerradas ni otras figuras por medio. Si la
+línea está cortada, el hechizo se desvía y se pierde. El lanzador siempre
+puede hechizarse a sí mismo.
+
+\subsubsection*{Hechizos de aire}
+\begin{description}
+\item[\pant{Genio}] Invoca a un genio que ataca una sola vez a cualquier
+  enemigo con cinco dados de combate, o que abre una puerta.
+\item[\pant{Tempestad}] Un torbellino envuelve a un monstruo o a un héroe,
+  que pierde su próximo turno.
+\item[\pant{Huracán}] El héroe elegido tirará el doble de dados en su
+  próximo movimiento.
+\end{description}
+
+\subsubsection*{Hechizos de fuego}
+\begin{description}
+\item[\pant{Valor}] El héroe elegido tira dos dados más cada vez que ataca,
+  hasta que deje de tener monstruos a la vista.
+\item[\pant{Cólera de fuego}] Busca a un enemigo en cualquier lugar del
+  tablero y le causa un punto de daño, salvo que saque un escudo con un
+  dado.
+\item[\pant{Bola de fuego}] Causa dos puntos de daño a un monstruo o héroe.
+  La víctima tira dos dados y resta un punto por cada escudo.
+\end{description}
+
+\subsubsection*{Hechizos de tierra}
+\begin{description}
+\item[\pant{Piel de roca}] El héroe elegido tira dos dados más en defensa,
+  hasta que resulte herido.
+\item[\pant{Sanar heridas}] Devuelve hasta cuatro puntos de cuerpo
+  perdidos.
+\item[\pant{Atravesar muros}] En su próximo movimiento, el héroe elegido
+  puede cruzar los muros, tantos como su movimiento le permita.
+\end{description}
+
+\subsubsection*{Hechizos de agua}
+\begin{description}
+\item[\pant{Dormir}] Sume a un monstruo o héroe en un sueño profundo, salvo
+  que resista con sus puntos de mente. Dormido no puede defenderse. Puede
+  despertar al comienzo de cada turno, y despierta si lo atacan.
+\item[\pant{Velo de niebla}] En su próximo movimiento, el héroe elegido
+  pasa sin ser visto por casillas ocupadas, y los monstruos no lo atacan.
+\item[\pant{Aguas curativas}] Devuelve hasta cuatro puntos de cuerpo
+  perdidos.
+\end{description}
+
+En el inventario algunos hechizos aparecen con el nombre abreviado
+(\pant{Velo niebla}, \pant{Cruzar muros}, \pant{Sanar cuerpo}\ldots).
+
+\subsection{El inventario, las pociones y los objetos}
+
+El icono de la bolsa abre el inventario del héroe, dividido en
+\pant{Pociones}, \pant{Armas}, \pant{Armadura}, \pant{Hechizos} (sólo el
+duende y el hechicero) y \pant{Búsqueda tesoro}, que reúne los objetos
+especiales hallados en las aventuras. Pulsa sobre un arma para empuñarla,
+sobre una pieza de armadura para vestirla o sobre una poción para beberla;
+lo que está en uso se muestra resaltado. \pant{Salida} cierra el
+inventario.
+
+\pantalla[0.7]{hoja_barbaro}{El inventario del bárbaro al empezar: todavía
+vacío.}
+
+\subsubsection*{Pociones}
+
+Las pociones se encuentran buscando tesoros. Cada una sirve una sola vez.
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule
+\textbf{Poción} & \textbf{Efecto}\\
+\midrule
+\pant{Curación}    & Devuelve al instante hasta cuatro puntos de cuerpo,
+                     sin superar el máximo del héroe.\\
+\pant{Fuerza}      & Dos dados más en el próximo ataque.\\
+\pant{Resistencia} & Dos dados más en la próxima defensa.\\
+\pant{Velocidad}   & Doble de dados en el movimiento del próximo turno.\\
+\pant{Heroico}     & Permite atacar dos veces en la misma jugada.\\
+\pant{Agua santa}  & Agua sagrada contra los muertos vivientes
+                     (esqueletos, zombis y momias) de la sala.\\
+\bottomrule
+\end{tabularx}
+\caption{Pociones.}
+\end{table}
+
+\subsubsection*{Tesoros de aventura}
+
+Algunas aventuras esconden objetos únicos, que su dueño conserva de una
+aventura a otra:
+
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lL@{}}
+\toprule
+\textbf{Objeto} & \textbf{Efecto}\\
+\midrule
+Armadura de Borin   & Cuatro dados de defensa, sin la lentitud de la
+                      armadura de placas.\\
+Vara del Recuerdo   & Permite lanzar dos hechizos en un mismo turno.\\
+Talismán del Saber  & Aumenta en dos los puntos de mente de quien lo
+                      lleva.\\
+Azote de Orcos      & Espada de dos dados de ataque que golpea dos veces
+                      cuando el enemigo es un orco.\\
+Espada Espiritual   & Tres dados de ataque, cuatro contra los muertos
+                      vivientes. Es la única arma capaz de herir al Señor
+                      Brujo.\\
+\bottomrule
+\end{tabularx}
+\caption{Tesoros de aventura.}
+\end{table}
+
+\subsection{La muerte}
+
+Un héroe cuyos puntos de cuerpo llegan a cero muere y es retirado del
+juego. Todo lo que llevaba, oro y armas, se pierde; los objetos únicos
+vuelven al lugar donde se encontraron, de modo que, para recuperarlos, los
+supervivientes tendrán que repetir la aventura correspondiente.
+
+En la pantalla \pant{Crear personaje} el héroe caído figura como
+\pant{Muerto}. Allí puede crearse un personaje nuevo que ocupe su lugar,
+aunque tendrá que empezar desde cero.
+
+\subsection{Entre aventuras}
+
+Una aventura se supera al cumplir el objetivo que Mentor señaló en su
+presentación y salir con vida de la mazmorra. Si no se consigue, puede
+intentarse de nuevo: Morcar empieza siempre con todos sus monstruos.
+
+Los héroes que sobreviven conservan su oro, su equipo y los tesoros de
+aventura. También conservan sus heridas: los puntos de cuerpo perdidos no
+vuelven solos, hay que recuperarlos con pociones o hechizos de curación. Es
+el momento de pasar por la tienda antes de elegir la aventura siguiente, y
+de apuntar el código de cada héroe (página~\pageref{sec:codigos}) si vas a
+apagar el ordenador.
+
+% ================================================================
+\chapter{Los héroes}
+
+
+\ficha{heroe_barbaro}{El bárbaro}{%
+\begin{tabular}{@{}lc@{\qquad}lc@{}}
+Puntos de cuerpo & 8 & Dados de ataque & 3\\
+Puntos de mente & 2 & Dados de defensa & 2\\
+\end{tabular}}{%
+Nombre de fábrica: \textbf{Sigmar}. Es el guerrero más temible del grupo:
+el que más golpes aguanta y el que con más fuerza los devuelve. No sabe
+nada de magia, y su escasa fuerza mental lo hace vulnerable a los
+hechizos, pero puede empuñar cualquier arma y vestir cualquier armadura.
+Su lugar está en cabeza, abriendo las puertas y recibiendo a lo que
+aguarde detrás.}
+
+\ficha{heroe_enano}{El enano}{%
+\begin{tabular}{@{}lc@{\qquad}lc@{}}
+Puntos de cuerpo & 7 & Dados de ataque & 2\\
+Puntos de mente & 3 & Dados de defensa & 2\\
+\end{tabular}}{%
+Nombre de fábrica: \textbf{Grugni}. Buen luchador, casi tan resistente
+como el bárbaro, es además un experto en trampas: lleva consigo desde el
+principio la caja de herramientas, con la que desactiva las trampas
+descubiertas. Tampoco usa la magia. Con una buena arma comprada con el
+primer oro se convierte en un combatiente formidable.}
+
+\ficha{heroe_duende}{El duende}{%
+\begin{tabular}{@{}lc@{\qquad}lc@{}}
+Puntos de cuerpo & 6 & Dados de ataque & 2\\
+Puntos de mente & 4 & Dados de defensa & 2\\
+\end{tabular}}{%
+Nombre de fábrica: \textbf{Ladril}. El elfo del juego de tablero, al que
+esta versión llama \pant{Duende}, es guerrero y mago a la vez. Combate
+como el enano, puede usar todas las armas y armaduras, y dispone además de
+un grupo de tres hechizos, que elige al comenzar cada aventura.}
+
+\ficha{heroe_hechicero}{El hechicero}{%
+\begin{tabular}{@{}lc@{\qquad}lc@{}}
+Puntos de cuerpo & 4 & Dados de ataque & 1\\
+Puntos de mente & 6 & Dados de defensa & 2\\
+\end{tabular}}{%
+Nombre de fábrica: \textbf{Zoltan}. Débil en el cuerpo a cuerpo y con muy
+pocos puntos de cuerpo, compensa su fragilidad con tres grupos de hechizos
+---nueve en total--- y con la mente más fuerte del grupo. De la tienda
+sólo le sirven el bastón, que le permite atacar en diagonal desde detrás
+de un compañero, y la caja de herramientas. Hay que protegerlo: sus
+hechizos, usados en el momento justo, deciden las aventuras.}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.48\linewidth]{heroe_barbaro_anim}\hfill
+\includegraphics[width=0.48\linewidth]{heroe_enano_anim}\\[3pt]
+\includegraphics[width=0.48\linewidth]{heroe_duende_anim}\hfill
+\includegraphics[width=0.48\linewidth]{heroe_hechicero_anim}
+\caption{Los cuatro héroes en movimiento.}
+\end{figure}
+
+% ================================================================
+\chapter{Los enemigos}
+
+
+Morcar dispone de ocho clases de criaturas. La tabla resume sus
+características; el movimiento es el número de casillas que pueden
+recorrer en un turno.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+\textbf{Enemigo} & \textbf{En pantalla} & \textbf{Mov.} & \textbf{Ataque}
+ & \textbf{Defensa} & \textbf{Cuerpo}\\
+\midrule
+Goblin            & \pant{Duende}    & 10 & 2 & 1 & 1\\
+Orco              & \pant{Orc}       & 8  & 3 & 2 & 1\\
+Fimir             & \pant{Fimir}     & 6  & 3 & 3 & 1\\
+Guerrero del Caos & \pant{Guerrero}  & 6  & 3 & 4 & 1\\
+Esqueleto         & \pant{Esqueleto} & 6  & 2 & 2 & 1\\
+Zombi             & \pant{Zombie}    & 4  & 2 & 3 & 1\\
+Momia             & \pant{Momia}     & 4  & 3 & 4 & 1\\
+Gárgola           & \pant{Hechicero} & 6  & 4 & 4 & 1\\
+\bottomrule
+\end{tabular}
+\caption{Características de los enemigos (dados de ataque y de defensa).}
+\end{table}
+
+Recuerda que los monstruos sólo se defienden con una de las seis caras del
+dado: incluso los mejor protegidos acaban cayendo.
+
+\ficha{monstruo_goblin}{Goblin}{Movimiento 10 \quad Ataque 2 \quad Defensa 1}{%
+Pequeños, cobardes y muy rápidos. El juego los llama \pant{Duende}, igual
+que al héroe elfo: no los confundas. Uno solo es poca cosa, pero llegan
+los primeros y suelen ir en grupo.}
+
+\ficha{monstruo_orco}{Orco}{Movimiento 8 \quad Ataque 3 \quad Defensa 2}{%
+La infantería de Morcar: fuertes, numerosos y siempre dispuestos a la
+pelea. Pegan tan duro como el bárbaro. Los héroes se las verán con varios
+de sus caudillos.}
+
+\ficha{monstruo_fimir}{Fimir}{Movimiento 6 \quad Ataque 3 \quad Defensa 3}{%
+Enormes reptiles de un solo ojo, armados con hachas y mazas. Más lentos
+que los orcos, pero bastante más difíciles de abatir.}
+
+\ficha{monstruo_guerrero_caos}{Guerrero del Caos}{Movimiento 6 \quad Ataque 3
+\quad Defensa 4}{%
+Campeones de Morcar enfundados en pesadas armaduras negras. Su defensa es
+la mejor entre los vivos; suelen mandar a las demás criaturas y custodiar
+los lugares importantes.}
+
+\ficha{monstruo_esqueleto}{Esqueleto}{Movimiento 6 \quad Ataque 2 \quad Defensa 2}{%
+Los muertos vivientes más comunes, alzados de sus tumbas por la magia del
+Caos. Frágiles, pero incansables. Como todos los muertos vivientes, temen
+al agua santa y a la Espada Espiritual.}
+
+\ficha{monstruo_zombi}{Zombi}{Movimiento 4 \quad Ataque 2 \quad Defensa 3}{%
+Cadáveres animados, lentos y torpes. Es fácil dejarlos atrás, aunque
+resisten más de lo que su aspecto sugiere.}
+
+\ficha{monstruo_momia}{Momia}{Movimiento 4 \quad Ataque 3 \quad Defensa 4}{%
+Guardianas de las tumbas antiguas. Tan lentas como los zombis, pero
+golpean como un orco y resisten como un guerrero del Caos.}
+
+\ficha{monstruo_gargola}{Gárgola}{Movimiento 6 \quad Ataque 4 \quad Defensa 4}{%
+La criatura más poderosa de Morcar: un demonio de piedra con el mejor
+ataque y la mejor defensa del juego. La misma figura representa a los
+hechiceros del Caos, y por eso el juego la llama \pant{Hechicero}.}
+
+\subsection{Enemigos con nombre propio}
+
+Algunas aventuras tienen un adversario principal, más peligroso que sus
+congéneres y por cuya cabeza suele pagarse una recompensa:
+
+\begin{description}
+\item[Ulag] Señor de la guerra orco, responsable del secuestro de Sir
+  Ragnar.
+\item[Grak] Hijo de Ulag, que ha jurado vengar a su padre.
+\item[Gulthor] Guerrero del Caos al mando de la banda que robó el oro del
+  príncipe Magnus.
+\item[Balur] El Mago del Fuego. Ningún hechizo de fuego puede dañarlo.
+\item[El Señor Brujo] El \pant{Gran Brujo}, Rey de los Muertos. Es inmune a
+  los hechizos, y de todas las armas sólo la Espada Espiritual puede
+  herirlo.
+\end{description}
+
+En \textit{El retorno del Señor Brujo} aparecen además Bellthor, la gárgola
+guardiana; Skulmar, capitán de la Legión Olvidada; Kessandria, la Reina
+Bruja; los Jinetes Espectrales y los guerreros de la Guardia de la
+Perdición, todos ellos más fuertes que las criaturas corrientes.
+
+\subsection{El mobiliario de la mazmorra}
+
+Las salas no están vacías: mesas, potros de tortura, bancos de alquimista,
+tumbas, chimeneas, estanterías, armeros, cofres y tronos ocupan casillas y
+cierran el paso. No se puede caminar sobre ellos, pero suelen señalar las
+salas en las que merece la pena buscar.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{mobiliario_a}\\[4pt]
+\includegraphics[width=\linewidth]{mobiliario_b}\\[6pt]
+\includegraphics[width=0.12\linewidth]{monstruo_cofre}\qquad
+\includegraphics[width=0.12\linewidth]{monstruo_trono}
+\caption{El mobiliario, el cofre y el trono.}
+\end{figure}
+
+% ================================================================
+\chapter{Las aventuras de Morcar}
+
+
+Éstas son las catorce aventuras del juego original, en el orden en que
+conviene jugarlas. En el cartucho no hay que cargar nada: se eligen
+directamente en la primera página de la lista.
+
+\dospantallas{sala_q1}{sala_q6}{El comienzo de dos aventuras.}
+
+\aventura{1}{El laberinto}
+<<Ésta será vuestra prueba final antes de partir hacia las verdaderas
+aventuras.>>
+
+Mentor ha encerrado a sus discípulos en un laberinto y ha
+soltado en él a varios monstruos.
+\objetivo{Encontrar la salida. El primero que la alcance recibirá 100
+monedas de oro para comprar equipo.}
+\consejos{Los héroes empiezan separados, cada uno en una esquina. Es la
+aventura ideal para aprender a moverse, abrir puertas y combatir. No hace
+falta matar a todos los monstruos, y el hechicero hará bien en evitarlos.
+El mapa te dirá por dónde has pasado ya.}
+
+\aventura{2}{El rescate de Sir Ragnar}
+Sir Ragnar, uno de los caballeros más poderosos del Emperador, ha sido
+secuestrado. Lo retiene Ulag, señor de la guerra de los orcos.
+\objetivo{Encontrar a Sir Ragnar y devolverlo sano y salvo a la escalera.
+El príncipe Magnus pagará 200 monedas de oro a quien lo rescate. La
+recompensa puede repartirse, pero no se pagará nada si Sir Ragnar muere
+durante la huida.}
+\consejos{Cuando los héroes dan con el prisionero, la alarma se extiende
+por la fortaleza: todo el mapa queda al descubierto y los monstruos saben
+dónde estáis. Sir Ragnar se une al grupo como un personaje más, pero está
+débil, se mueve despacio y no puede luchar: escoltadlo. Buscad tesoros en
+las salas ya limpias; revisad antes las trampas si veis un cofre.}
+
+\aventura{3}{La guarida de los orcs}
+El príncipe Magnus ha ordenado dar caza a Ulag, el responsable del
+secuestro de Sir Ragnar.
+\objetivo{Matar a Ulag. Quien lo consiga recibirá 100 monedas de oro, y
+todo tesoro hallado en su fortaleza puede conservarse.}
+\consejos{Ulag no está solo y pega más fuerte que un orco corriente:
+atacadlo entre varios y reservad para él los hechizos de daño. Hay varios
+tesoros escondidos ---entre ellos un arma--- y al menos un cofre con
+trampa.}
+
+\aventura{4}{El oro del príncipe Magnus}
+Tres cofres han sido robados cuando viajaban hacia el Emperador. Los
+ladrones son una banda de orcos escondida en las Montañas Negras, a las
+órdenes de Gulthor, un guerrero del Caos.
+\objetivo{Recuperar los cofres con \emph{todo} el oro y sacarlos de la
+mazmorra. La recompensa es de 200 monedas de oro.}
+\consejos{Un héroe que carga con un cofre queda marcado con \pant{Oro
+Magnus} en su inventario y sólo tira un dado de movimiento. Despejad
+primero el camino de vuelta, y que los héroes libres de carga protejan a
+los porteadores.}
+
+\aventura{5}{El laberinto Melar}
+Hace mucho tiempo, el poderoso hechicero Melar creó un talismán que
+acrecienta la comprensión de la magia de quien lo lleva. Temiendo que
+cayera en manos de los aliados de Morcar, lo guardó en su laboratorio, en
+el corazón de un laberinto protegido por trampas y guardianes mágicos. Se
+dice que lo rondan los espíritus de quienes murieron buscándolo.
+\objetivo{Encontrar el Talismán del Saber y salir con él.}
+\consejos{Es una aventura de trampas y puertas secretas: buscad en cada
+tramo de pasillo antes de avanzar y dejad que el enano vaya delante. No
+todo se abre a la primera; antes del talismán hay que dar con otra cosa.
+El talismán es perfecto para el hechicero o el duende.}
+
+\aventura{6}{El legado orc}
+Grak, el vástago de Ulag, ha jurado vengarse de quienes mataron a su
+padre. Tras meses de búsqueda os ha tendido una emboscada y os ha
+encerrado en sus mazmorras mientras decide vuestro castigo. Pero el
+guardián duerme, y con un hueso de rata habéis forzado la cerradura de la
+celda.
+\objetivo{Recuperar vuestro equipo y escapar.}
+\consejos{Empezáis sin armas ni armaduras, de modo que cualquier combate
+es peligroso. Lo primero es encontrar la sala donde Grak guarda lo que os
+quitó; hasta entonces, moveos juntos y evitad a los monstruos.}
+
+\aventura{7}{El cazador de piedra}
+Karlen, el mago personal del Emperador, ha desaparecido. El Emperador teme
+que lo hayan asesinado, o que haya sucumbido a la seducción de la magia
+del Caos.
+\objetivo{Averiguar qué ha sido de Karlen y, si vive, ponerlo a salvo. A
+la vuelta se pagarán 100 monedas de oro a cada héroe.}
+\consejos{El título es una pista sobre lo que acecha en esta mazmorra. En
+ella se esconden la Armadura de Borin, una de las mejores piezas del
+juego, y el cofre de Karlen. Registrad las salas con muebles.}
+
+\aventura{8}{Mago del fuego}
+Los orcos de las Montañas Negras emplean magia de fuego en sus
+incursiones. Se cree que los ayuda Balur, el Mago del Fuego, cuyos
+hechizos no saben contrarrestar los magos del Emperador.
+\objetivo{Penetrar en la guarida de Balur, bajo el Peñasco del Fuego Negro,
+y destruirlo. El Emperador recompensará a cada héroe.}
+\consejos{Ningún hechizo de fuego puede dañar a Balur, así que al repartir
+la magia conviene que el hechicero cuente con otros grupos. En su guarida
+se esconde la Vara del Recuerdo.}
+
+\aventura{9}{Carrera contra el tiempo}
+Un guía os ha conducido a una mazmorra de la que se dice que guarda un
+gran secreto. Tras muchos corredores oscuros llegáis a una sala con tres
+puertas; entonces el guía apaga su antorcha y, entre risas, se despide:
+era una trampa.
+\objetivo{Escapar con vida de ese agujero olvidado.}
+\consejos{Empezáis sin saber dónde está la salida. No os separéis ni os entretengáis: los monstruos acuden desde
+todas partes. Hay oro para quien se detenga a buscarlo, pero cada turno
+cuenta.}
+
+\aventura{10}{El castillo misterioso}
+Hace mucho, el mago loco Ollar descubrió la entrada de una mina de oro y,
+para protegerla, levantó sobre ella un castillo mágico, lleno de portales
+encantados y guardado por monstruos atrapados en el tiempo.
+\objetivo{Encontrar la entrada de la mina. Otros lo intentaron, y el
+castillo los burló a todos.}
+\consejos{Las puertas de este castillo no llevan adonde parece: al
+cruzarlas, los héroes aparecen en otra sala, al azar. Es fácil que el
+grupo se disperse. Quien encuentre el oro tendrá que decidir si carga con
+él: con ese peso no se puede atacar ni defenderse, aunque siempre es
+posible soltarlo desde el inventario.}
+
+\aventura{11}{El baluarte de Caos}
+Las tierras del este sufren el saqueo de orcos y goblins, que se refugian
+en una fortaleza subterránea, el Baluarte del Caos, al mando de un pequeño
+grupo de guerreros del Caos.
+\objetivo{Abrirse paso y acabar con todos los monstruos. Se pagan 10
+monedas por cada goblin, 20 por cada orco y 30 por cada fimir o guerrero
+del Caos.}
+\consejos{Es la aventura con más combates: entrad con el mejor equipo que
+podáis pagar y con todos los héroes. Avanzad sala a sala, sin abrir una
+puerta nueva hasta haber limpiado la anterior. Hay una gárgola que parece
+una estatua; mientras nadie toque lo que guarda, seguirá siéndolo.}
+
+\aventura{12}{Barak Tor}
+Se avecina la guerra contra los orcos del este, y el Emperador necesita
+unir a los reinos menores. Para ello debe encontrar la Estrella del Oeste,
+la joya que llevaron los reyes de la leyenda y el propio Rogar. La gema
+yace en Barak Tor, el túmulo donde reposa el Señor Brujo.
+\objetivo{Encontrar la Estrella del Oeste y salir con ella. Quien la
+entregue recibirá 200 monedas de oro.}
+\consejos{Barak Tor es un lugar de muertos vivientes: esqueletos, zombis
+y momias, lentos pero difíciles de abatir. Y cuidado con lo que
+despertáis: hay sellos que es mejor no romper, y derrumbes que pueden
+cortar la retirada.}
+
+\aventura{13}{La espada espiritual}
+Habéis despertado al Señor Brujo, el Rey de los Muertos, un poderoso
+siervo de Morcar. Hay que destruirlo antes de que lance su ejército de
+muertos vivientes contra las fuerzas del Emperador, y sólo un arma puede
+herirlo: la Espada Espiritual, forjada por los enanos de las Montañas del
+Fin del Mundo y templada en la fuente élfica de Lebin. La espada yace en
+un antiguo templo en ruinas.
+\objetivo{Encontrar la Espada Espiritual.}
+\consejos{El templo está bien guardado. La espada no es el único tesoro
+que esconde. Entregádsela a un buen luchador: contra los muertos vivientes
+tira cuatro dados, y sin ella la aventura siguiente no puede ganarse.}
+
+\aventura{14}{Regreso a Barak Tor}
+Con la Espada Espiritual en vuestro poder debéis volver a Barak Tor. El
+Emperador ha partido al encuentro de los orcos del este en el Paso del
+Fuego Negro; si fracasáis, el Señor Brujo atacará a sus tropas por la
+retaguardia con su ejército de muertos vivientes y nada impedirá que las
+fuerzas del Caos invadan la tierra.
+\objetivo{Derrotar al Señor Brujo.}
+\consejos{El Señor Brujo es inmune a los hechizos y a las armas
+corrientes: sólo el portador de la Espada Espiritual puede herirlo. Los
+demás deben protegerlo y mantener a raya a la escolta de muertos
+vivientes. Guardad los hechizos de curación para él.}
+
+% ================================================================
+\chapter{El retorno del Señor Brujo}
+
+
+La segunda página de la lista de aventuras contiene las diez de la
+expansión, que continúan la historia donde la dejó \textit{Regreso a Barak
+Tor}. Son más largas y difíciles que las anteriores, y es todavía más
+importante jugarlas en orden y con héroes bien equipados.
+
+\pantalla[0.7]{pergamino_exp}{La presentación de la primera aventura de la
+expansión.}
+
+\subsection*{Un mensaje de Mentor}
+
+<<Dignos compañeros, hay que actuar deprisa: ¡el Señor Brujo no ha
+muerto!>> Logró huir a Kalos, la ciudad caída. Aquella hermosa ciudad fue
+destruida hace muchos años por Morcar, que la entregó al Señor Brujo; y
+bajo sus ruinas levantó éste una gran fortaleza, pues sus criaturas no
+soportan la luz del día. En cuanto recobre las fuerzas reunirá a su
+ejército de muertos vivientes y atacará al Imperio. Sus guerreros no
+conocen el miedo y luchan hasta ser destruidos.
+
+Muchos días de marcha por las abrasadas Llanuras de la Muerte os han
+traído hasta las ruinas de Kalos. Durante todo el viaje habéis sentido una
+presencia inquietante: desde su alto trono, el Señor Brujo ve a cuantos se
+acercan. Si no se le detiene pronto se le unirán Skulmar, capitán de la
+Legión Olvidada, y Kessandria, la Reina Bruja; y se dice que, si ambos se
+sientan a su lado, los huesos de todos los guerreros caídos se alzarán
+bajo el Estandarte Negro.
+
+\subsection*{Novedades de la expansión}
+
+\begin{itemize}
+\item Los héroes no siempre empiezan en la escalera: a menudo entran por
+  una puerta en el borde de la mazmorra, y la salida puede ser otra puerta
+  distinta, que hay que encontrar.
+\item Entre una aventura y otra los héroes recuperan todos sus puntos de
+  cuerpo y de mente.
+\item Hay enemigos con nombre propio mucho más fuertes que los corrientes,
+  nuevas trampas y salas con comportamientos mágicos.
+\end{itemize}
+
+\dospantallas{sala_q10}{sala_q13}{Los héroes, preparados para descender una
+vez más.}
+
+\aventura{1}{La puerta de la perdición}
+La entrada a la fortaleza no es difícil de encontrar: nadie se ha
+molestado en ocultarla. La puerta exterior está abierta y hay señales de
+que muchas criaturas la han cruzado en los últimos días.
+\objetivo{Abrirse camino por los túneles hasta la Puerta de la
+Perdición.}
+\consejos{El enemigo ha tenido tiempo de preparar la bienvenida: hay
+puertas falsas que no se abren y salas cuyos ocupantes aguardan
+emboscados y salen todos a la vez. Merece la pena registrar las salas:
+hay oro, y algo más, para quien busque.}
+
+\aventura{2}{Las salas frías}
+Estos pasadizos helados son el lugar de reposo de los Jinetes
+Espectrales, que antaño guiaron a la batalla a la caballería de
+esqueletos del Señor Brujo. Ahora yacen soñando con glorias pasadas, a la
+espera de que el Estandarte Negro vuelva a llamarlos.
+\objetivo{Encontrar la escalera de caracol para seguir adelante.}
+\consejos{Los Jinetes Espectrales parecen esqueletos, pero atacan y se
+defienden mucho mejor. Hay una sala giratoria de
+la que no se sabe por qué puerta se saldrá, y un cofre protegido por una
+aguja envenenada: revisad las trampas antes de abrirlo. No todas las
+tumbas deben profanarse.}
+
+\aventura{3}{Los pasadizos silenciosos}
+Estos pasadizos llevan en silencio más de mil años. Las últimas voces que
+resonaron en ellos fueron las del rey Agrain y su pueblo, cuando corrían a
+defender la ciudad. Se dice que aquí actúa una magia antigua y terrible.
+\objetivo{Encontrar la puerta de salida.}
+\consejos{Una niebla mortal, aliento del Caos, recorre los corredores y
+daña a todo el que no sea maligno. No os quedéis en su camino. En las
+salas hay un cofre con trampa y algunas armas arrojadizas mágicas.}
+
+\aventura{4}{Las salas de la visión}
+El rey Agrain fue uno de los grandes reyes anteriores al Caos, guerrero
+temido y legislador justo. También jugó con la magia, y así creó las Salas
+de la Visión, un laberinto de salas mágicas cuyo secreto está en las
+Llaves de Agrain.
+\objetivo{Encontrar las Llaves de Agrain y alcanzar la puerta de salida.}
+\consejos{Cuatro salas mágicas, guardada cada una por una momia, protegen
+el laboratorio secreto del rey. Al caer una momia, las puertas cambian.
+Las llaves están en el laboratorio, y son valiosas por más de un motivo.}
+
+\aventura{5}{La puerta de Bellthor}
+Aquí empieza el verdadero dominio del Señor Brujo: la fortaleza
+subterránea desde la que planea la destrucción del Imperio. Loretome habla
+de un guardián terrible, Bellthor, que vigila la puerta.
+\objetivo{Enfrentarse a Bellthor. Sólo juntos podréis vencerlo.}
+\consejos{Bellthor es una gárgola con un aliento venenoso que ataca la
+mente, y no se mueve hasta tener a todos los héroes delante. Entrad
+juntos, con todos los puntos de cuerpo posibles, y recoged antes el oro de
+los cofres. La victoria tendrá un precio inesperado.}
+
+\aventura{6}{Las salas de los muertos}
+El hechicero y el enano despiertan en una celda, todavía aturdidos por el
+gas venenoso. Sois prisioneros del Señor Brujo, que reúne aquí su ejército
+inmundo; el duende y el bárbaro han sido llevados a un lugar secreto.
+\objetivo{Rescatar a los compañeros y escapar por la escalera de caracol.}
+\consejos{Al principio sólo juegan el hechicero y el enano. Conservan sus
+armas, objetos y hechizos, pero el oro ha desaparecido. El bárbaro y el
+duende están encadenados y sin equipo: tras liberarlos hay que encontrar
+el cofre donde se guarda.}
+
+\aventura{7}{La legión olvidada}
+Habéis escapado del Señor Brujo, pero no tardará en seguiros. Las salas
+que ahora cruzáis guardan a la Legión Olvidada, la élite de su ejército,
+al mando de Skulmar: guerreros con las cicatrices de mil batallas, cada
+una de ellas una victoria del Caos.
+\objetivo{Encontrar la puerta de salida.}
+\consejos{La Legión aguarda inmóvil, encerrada en un hielo mágico que
+ningún arma rompe\ldots{} hasta que se abre la puerta equivocada. Skulmar
+es más fuerte que cualquier guerrero del Caos y, si la lucha se tuerce,
+intentará huir; si cae, deja tras de sí un botín interesante.}
+
+\aventura{8}{La ciudad prohibida}
+Ningún hombre ha entrado jamás en la Ciudad Prohibida, y ni siquiera
+Loretome sabe decir gran cosa de lo que aguarda. Se dice que sus pasadizos
+están llenos de muertos vivientes, los siervos sin mente de Morcar,
+condenados a vagar por ella para siempre.
+\objetivo{Atravesar la ciudad y encontrar la salida.}
+\consejos{Los muertos vivientes no se acaban: aparecen otros nuevos turno
+tras turno, de modo que no tiene sentido quedarse a pelear. La ciudad,
+además, se desmorona. Hay tesoros para quien se arriesgue, alguno de ellos
+envenenado.}
+
+\aventura{9}{La última puerta}
+Ésta es la última puerta antes de la corte del Señor Brujo. Los pasadizos
+que hay tras ella están guardados por los guerreros del Caos de la Guardia
+de la Perdición, más poderosos que cuantos habéis combatido, y en ellos
+tiene sus aposentos Kessandria, la Reina Bruja.
+\objetivo{Encontrar la escalera de caracol que lleva ante el Señor Brujo.}
+\consejos{Los guardias de la Perdición atacan con cuatro dados y se
+defienden con seis. Kessandria domina la magia
+del Caos y sólo teme a los hechizos de fuego: guardadlos para ella.}
+
+\aventura{10}{La corte del Señor Brujo}
+El Señor Brujo ha observado vuestro avance. Ha intentado destruiros una y
+otra vez, y otras tantas lo habéis frustrado. Ahora ha huido a su sala del
+trono.
+\objetivo{Librar allí la batalla final. Esta vez no debe haber escapatoria
+para él.}
+\consejos{El Señor Brujo es ahora más fuerte que en Barak Tor, conoce los
+hechizos del Caos y lo escoltan guerreros de la Guardia de la Perdición.
+Sólo pueden herirlo la Espada Espiritual, los hechizos Cólera de fuego y
+Bola de fuego y las dagas arrojadizas mágicas. No ataquéis a las estatuas
+de orcos que cierran los corredores: no sufren daño, y las armas se
+rompen contra ellas.}
+
+\subsection*{Conclusión}
+
+Si el Señor Brujo cae, su ejército de muertos vivientes seguirá dormido
+bajo la tierra y la magia que lo gobernaba quedará debilitada. Pero Mentor
+advierte de que la victoria no debe ser excusa para el descanso: los
+siervos que escaparon buscarán venganza, y Skulmar, a quien se creía
+muerto, ha huido de las ruinas de Kalos con muchos de los libros de
+hechizos de su amo. Por ahora, sin embargo, os habéis ganado un respiro:
+el Emperador os espera en el Gran Palacio.
+
+% ================================================================

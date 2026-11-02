@@ -1,0 +1,100 @@
+\chapter{The menus}\label{cap:menus}
+\subsection{The main menu}
+\pantalla[0.62]{menu_principal_en}{The main menu in version \versionjuego.}
+With \pant{ENGLISH} selected at start-up, the main menu has four options:
+\begin{description}
+\item[\pant{PLAY}] Start an adventure. Choose this last, once the characters are ready.
+\item[\pant{BUY EQUIPMENT}] Visit the shop, where heroes spend gold on weapons and armour.
+\item[\pant{CREATE HERO}] Decide which heroes take part and give them names.
+\item[\pant{OPTIONS}] Music and typeface settings.
+\end{description}
+\subsection{Creating characters}
+\pantalla[0.62]{crear_personaje_en}{The character screen: each hero's class on the left and name on the right.}
+The \pant{CHOOSE HERO} screen shows the four heroes. To each one's right is their name---initially Sigmar the barbarian, Grugni the dwarf, Ladril the elf and Zoltan the wizard---or \pant{DEAD}. A dead character does not take part in the next adventure.
+\begin{itemize}
+\item Use \textbf{up} and \textbf{down}, or point with the mouse, to highlight a hero.
+\item Press \textbf{right} to switch between the name and \pant{DEAD}. Use this to remove a hero who will not be playing, or to create a new character in a fallen hero's place. The new character starts with full points but no gold or equipment.
+\item Press action on an active hero to open their menu: \pant{HERO NAME}, \pant{LOAD} and \pant{SAVE}.
+\item \pant{BACK} returns to the main menu.
+\end{itemize}
+\pant{HERO NAME} shows an alphabet at the bottom of the screen. Choose up to six letters, one at a time, and finish with \pant{END}.
+
+In the original game, \pant{LOAD} and \pant{SAVE} loaded and saved characters on tape. In this cartridge they use \textbf{codes}, explained below.
+
+If every hero is dead, the game warns you and asks you to create new characters before playing again.
+\subsection{Hero codes}\label{sec:codigos}
+The cartridge cannot save data, so each hero is preserved with a 16-letter code: 14 data letters and two check letters. Old 14-letter codes are no longer accepted. The code contains:
+\begin{itemize}
+\item the hero's six-letter name;
+\item gold;
+\item current body points;
+\item purchased weapons and armour, and the tool kit;
+\item quest treasures found during adventures.
+\end{itemize}
+It does not save potions or spells, which are lost at the end of each adventure, or the weapon currently held: after restoring a hero, select it again in the inventory.
+\dospantallas{codigo_guardar_en}{codigo_cargar_en}{Left: \pant{SAVE} shows the hero's code. Right: \pant{LOAD} asks for it letter by letter.}
+\subsubsection*{Saving: display the code}
+In \pant{CREATE HERO}, select a hero, press action and choose \pant{SAVE}. The screen shows the code in three letter groups, for example \texttt{QGYNT ZDWQL PYZGTI}. Copy it exactly and press action to return. Do this for all four heroes after an adventure and after visiting the shop: the code describes the hero at the moment you request it.
+\subsubsection*{Loading: enter the code}
+Select a hero of the same class---a barbarian's code only works for the barbarian---press action and choose \pant{LOAD}. Enter letters in any of three ways:
+\begin{itemize}
+\item type them directly on the keyboard;
+\item point at each letter in the alphabet and click the mouse button;
+\item move along the alphabet with \textbf{left} and \textbf{right}, then press action.
+\end{itemize}
+\pant{END} deletes the last letter; when the line is empty, it returns to the character screen without changing anything. Once letter 16 is entered, the hero appears with their name, gold and equipment. If a letter is wrong, the game displays \pant{INVALID CODE} and lets you try again. A mistyped code is very unlikely to be accepted.
+\aviso{Warning}{Loading a code replaces the hero already in that slot. To preserve that hero, write down their code first.}
+\subsection{Buying equipment}
+\pantalla[0.7]{tienda_en}{The shop. Buyers are listed above, weapons and armour with their prices below.}
+During adventures, heroes find gold and receive rewards. They can spend it in the shop on better equipment, whose benefits apply automatically.
+\begin{enumerate}
+\item Select the buyer from the upper list. Their gold is displayed.
+\item Click the item you want. If the hero has enough gold and their class can use it, the item becomes theirs.
+\item \pant{BACK} in the item list ends that hero's shopping; \pant{BACK} in the hero list returns to the main menu.
+\end{enumerate}
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lrL@{}}
+\toprule\textbf{Weapon (screen label)} & \textbf{Price} & \textbf{Effect}\\\midrule
+Staff (\pant{STAFF}) &100&2 attack dice; may also attack diagonally\\
+Dagger (\pant{DAGGER}) &150&2 attack dice; may also attack diagonally\\
+Broadsword (\pant{BROADSWORD}) &250&3 attack dice\\
+Battle axe (\pant{BATTLE AXE}) &400&4 attack dice; prevents use of a shield\\
+Crossbow (\pant{CROSSBOW}) &350&3 ranged attack dice; cannot target an adjacent enemy\\
+Hand axe (\pant{HAND AXE}) &150&2 attack dice; may be thrown, but is then lost\\
+Spear (\pant{SPEAR}) &150&2 attack dice; may attack diagonally or be thrown, but is lost when thrown\\\bottomrule
+\end{tabularx}\caption{Weapons for sale.}\end{table}
+\begin{table}[H]\centering\small
+\begin{tabularx}{\linewidth}{@{}lrL@{}}
+\toprule\textbf{Armour/equipment} & \textbf{Price} & \textbf{Effect}\\\midrule
+Shield (\pant{SHIELD}) &100&One additional defence die\\
+Helmet (\pant{HELM}) &120&One additional defence die\\
+Chain mail (\pant{CHAIN MAIL}) &450&3 defence dice\\
+Plate armour (\pant{PLATE}) &850&4 defence dice, but its weight reduces movement to one die\\
+Tool kit (\pant{KIT}) &250&Disarm discovered traps; the dwarf already has one\\\bottomrule
+\end{tabularx}\caption{Armour and equipment for sale.}\end{table}
+The \textbf{wizard} can buy only the staff and tool kit: the other weapons and armour are not for him.
+\subsection{Options}
+\pantalla[0.62]{controles_en}{The options screen.}
+Operate this like the main menu: \textbf{up} and \textbf{down} move the bar and action selects, or point at an option with the mouse and click.
+\begin{description}
+\item[\pant{MUSIC ON}/\pant{MUSIC OFF}] Turn music on or off.
+\item[\pant{GOTHIC FONT}/\pant{NORMAL FONT}] Switch the whole game's typeface between the default Gothic lettering and a plainer, easier-to-read font.
+\item[\pant{BACK}] Return to the main menu.
+\end{description}
+\subsection{Playing: spells and adventure selection}
+After choosing \pant{PLAY}, the magic-using characters share out the spells before you choose an adventure. There are four groups---Air, Fire, Earth and Water (\pant{AIR SPELLS}, \pant{FIRE SPELLS}, \pant{EARTH SPELLS}, \pant{WATER SPELLS})---each containing three spells.
+\pantalla[0.7]{hechizos_en}{Choosing the spell groups.}
+The heading says whose choice it is: \pant{WIZARD CHOOSE SPELLS} or \pant{ELF CHOOSE SPELLS}.
+
+The wizard chooses one group first. The elf chooses next, and the two remaining groups go to the wizard. If only one of them takes part, that hero chooses alone: one group for the elf, three for the wizard.
+
+The adventure list then appears, split across two pages:
+\dospantallas{aventuras1_en}{aventuras2_en}{The two adventure pages: the original game and \textit{Return of the Witch Lord}.}
+\begin{itemize}
+\item The first contains the original game's \textbf{fourteen adventures}. Its last line, \pant{NEXT}, opens the second page.
+\item The second contains the expansion's \textbf{ten adventures}. Its last line, \pant{BACK}, returns to the first.
+\end{itemize}
+With a mouse, the mission you point at is highlighted directly.
+
+Choose an adventure to read Mentor's briefing. Read it carefully: it explains your objective. Press action to enter the dungeon. Play the adventures in order: each is slightly harder than the last and the story progresses between them.
+\pantalla[0.7]{pergamino1_en}{Mentor introduces the first adventure.}

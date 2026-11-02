@@ -1,0 +1,33 @@
+{
+  "cover": "docs/manual/images/portada.jpg",
+  "cover_shot": "docs/manual/images/opening16.png",
+  "title": "docs/manual/images/menu_principal.png",
+  "montage": [
+    "docs/manual/images/sala_inicio.png",
+    "docs/manual/images/combate_victoria.png",
+    "docs/manual/images/hechizos.png",
+    "docs/manual/images/buscar.png",
+    "docs/manual/images/tienda.png",
+    "docs/manual/images/intro_ciudad.png"
+  ],
+  "label": {
+    "lines": [
+      "MSX2 · 64 KB RAM · 128 KB VRAM",
+      "ASCII16 MegaROM · 2 MiB · EN / ES"
+    ],
+    "credit": "Versión MSX2: DiHalt · 2026",
+    "accent": [
+      190,
+      50,
+      35
+    ]
+  },
+  "montage_en": [
+    "docs/manual/images/sala_inicio.png",
+    "docs/manual/images/combate_victoria_en.png",
+    "docs/manual/images/hechizos_en.png",
+    "docs/manual/images/buscar_en.png",
+    "docs/manual/images/tienda_en.png",
+    "docs/manual/images/intro_ciudad.png"
+  ]
+}
