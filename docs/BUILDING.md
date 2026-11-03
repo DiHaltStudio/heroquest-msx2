@@ -77,7 +77,7 @@ are needed.
 ## Quick start
 
 ```sh
-git clone https://github.com/nwlg/heroquest-msx2.git
+git clone https://github.com/DiHaltStudio/heroquest-msx2.git
 cd heroquest-msx2
 python3 tools/prepare_originals.py '/path/to/Hero Quest.tzx' '/path/to/Return of the Witch Lord Side 1.tzx'
 make

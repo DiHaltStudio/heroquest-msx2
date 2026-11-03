@@ -8,7 +8,7 @@ An unofficial homage port by **DiHalt Studio**, 2026.
 
 ## Play it
 
-Download the ROM and manuals from [GitHub Releases](https://github.com/nwlg/heroquest-msx2/releases/latest).
+Download the ROM and manuals from [GitHub Releases](https://github.com/DiHaltStudio/heroquest-msx2/releases/latest).
 
 Version **1.0** is a **2 MiB ASCII16 MegaROM** for MSX2, MSX2+ and MSX turbo R with **64 KB RAM and 128 KB VRAM**. It uses the computer's own video output and PSG sound. **MoonSound/OPL4** is optional and detected automatically. No additional video cartridge is required.
 
@@ -45,7 +45,7 @@ The original commercial game is **not distributed in this repository**. Building
 The build uses Python 3, Pillow, GNU Make and sjasm 0.42c. Rebuilding the manuals additionally requires LaTeX or Tectonic. The port's source, editable graphics and translations are included.
 
 ```sh
-git clone https://github.com/nwlg/heroquest-msx2.git
+git clone https://github.com/DiHaltStudio/heroquest-msx2.git
 cd heroquest-msx2
 # Prepare your original game inputs as described in docs/BUILDING.md.
 make
